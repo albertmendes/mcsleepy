@@ -1,0 +1,259 @@
+/* Fonts */
+@font-face {
+  font-family: "Carrois-Gothic";
+  src: url("../fonts/CarroisGothic-Regular_0.woff");
+}
+@font-face {
+  font-family: "Francois-One";
+  src: url("../fonts/FrancoisOne.woff");
+}
+@font-face {
+  font-family: "Minion-Pro";
+  src: url("../fonts/MinionPro.woff");
+}
+@font-face {
+  font-family: "Zetafonts-Brush";
+  src: url("../fonts/Zetafonts - Freehand Brush Easy.woff");
+}
+@font-face {
+  font-family: "Zetafonts-Icon";
+  src: url("../fonts/Zetafonts.Freehand.Icon.UI.woff");
+}
+
+body {
+  background-color: #FDFCEF;
+  font-family: "Carrois-Gothic";
+  min-height: 2000px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding-left: 13px;
+  padding-right: 13px;
+  max-width: 1024px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-small {
+  padding-left: 13px;
+  padding-right: 13px;
+  max-width: 610px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.spacer-55 {
+  height: 55px;
+}
+.paddingTop {
+  top: 55px !important;
+}
+
+.navi {
+  position: absolute;
+  width: 100%;
+  background: #262626;
+  height: 55px;
+  border-bottom: 28px solid #ff670b;
+  box-sizing: content-box;
+  z-index: 2;
+  top: 0;
+}
+
+.navi ul {
+  float: right;
+}
+.navi ul li {
+  list-style: none;
+  float: left;
+  height: 55px;
+}
+.navi ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 55px;
+  color: white;
+  font-size: 12px;
+  line-height: 55px;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+div.header {
+  position: relative;
+  background: url(../img/startbild.jpg) no-repeat;
+  background-position: 100% -100px;
+  margin-top: 55px;
+  background-size: cover;
+  height: 355px;
+}
+
+.comb-wrapper {
+  position: relative;
+  top: -21px;
+}
+div.header .comb {
+  position: absolute;
+  z-index: 2 ;
+  width: 140px;
+}
+.comb-logo {
+  left: 500px;
+  top: -300px;
+  opacity: 0;
+  transition: transform 1s;
+}
+.comb-logo.anim {
+  transform: rotate(720deg);
+}
+
+.comb-phone {
+  left: -250px;
+  top: -300px;
+  opacity: 0;
+  transition: transform 1s;
+}
+.comb-phone.anim {
+  transform: rotate(720deg);
+}
+
+.comb-price {
+  left: 1000px;;
+  top: calc(173px / 2);
+  opacity: 0;
+  transition: transform 1s;
+}
+.comb-price.anim {
+  transform: rotate(-720deg);
+}
+
+.comb-bed {
+  left: 400px;
+  top: calc((173px + 5px) + ((173px + 5px) / 2));
+  opacity: 0;
+  transition: transform 1s;
+}
+.comb-bed.anim {
+  transform: rotate(360deg);
+}
+
+.green-stripe {
+  width: 100%;
+  height: 28px;
+  background: #959242;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.fl-right {
+  float: right;
+}
+
+.headline {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 13px;
+}
+.sub-headline {
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.social-icons-top {
+  font-family: 'Zetafonts-Icon';
+}
+.social-icons-top a {
+  float: right;
+  margin-right: 21px;
+  color: white;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 14px;
+}
+.social-icons-top a:first-child {
+  margin-right: 0;
+}
+
+.fade-in {
+  left: -900px;
+  opacity: 0;
+}
+.overview-item {
+  clear: both;
+}
+.overview-item-left {
+  float: left;
+  width: 45%;
+}
+.overview-item-left:after {
+  content: '';
+  position: relative;
+  top: -45px;
+  left: 90%;
+  display: inline-block;
+  background: url(../img/schraube.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+}
+.overview-item-right {
+  width: 55%;
+  float: right;
+  /*
+    height is computed with javascript
+  */
+}
+.overview-item-right a.item-details-link {
+  position: relative;
+  display: block;
+  float: right;
+  bottom: 42px;
+  right: 25px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.item-head {
+  background: #3b464d;
+  color: white;
+  text-align: center;
+  padding: 8px 13px;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-descr {
+    background: #c9c598;
+    color: #333;
+    height: 65%;
+    text-align: center;
+    font-size: 18px;
+    padding: 21px 0;
+}
+.overview-image img {
+  position: relative;
+  max-width: 100%;
+}
+
+.item-descr span.name {
+  font-family: 'Zetafonts-Brush';
+  margin-right: 5px;
+  font-size: 21px;
+}
+.item-descr span.name:before {
+  content: '„';
+  margin-right: 5px;
+}
+.item-descr span.name:after {
+  content: '“';
+  margin-left: 5px;
+}
