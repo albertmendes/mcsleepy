@@ -21,7 +21,7 @@
 }
 
 body {
-  background-color: #FDFCEF;
+  background-color: #EEEDDA;
   font-family: "Carrois-Gothic";
   min-height: 2000px;
 }
@@ -29,14 +29,16 @@ body {
 * {
   box-sizing: border-box;
 }
+
 .container {
-  padding-left: 13px;
-  padding-right: 13px;
+  padding-left: 21px;
+  padding-right: 21px;
   max-width: 1024px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
 }
+
 .container-small {
   padding-left: 13px;
   padding-right: 13px;
@@ -45,12 +47,19 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.spacer-102 {
+  height: 102px;
+}
+.spacer-89 {
+  height: 89px;
+}
 .spacer-55 {
   height: 55px;
 }
 .paddingTop {
   top: 55px !important;
 }
+
 
 .navi {
   position: absolute;
@@ -70,16 +79,16 @@ body {
   list-style: none;
   float: left;
   height: 55px;
+  margin-right: 55px;
 }
 .navi ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 55px;
   color: white;
   font-size: 12px;
   line-height: 55px;
 }
-nav ul li:last-child {
+.navi ul li:last-child {
   margin-right: 0;
 }
 
@@ -90,6 +99,14 @@ div.header {
   margin-top: 55px;
   background-size: cover;
   height: 355px;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1540px) {
+  div.header {
+    height: 444px;
+  }
 }
 
 .comb-wrapper {
@@ -100,6 +117,20 @@ div.header .comb {
   position: absolute;
   z-index: 2 ;
   width: 140px;
+}
+
+.logo-zimmer img {
+  position: absolute;
+  width: 140px;
+  top: -34px;
+  left: -55px;
+  z-index: 2;
+}
+@media (max-width: 1024px) {
+  .logo-zimmer img {
+    top: -89px;
+    left: 0;
+  }
 }
 .comb-logo {
   left: 500px;
@@ -241,7 +272,7 @@ div.header .comb {
 }
 .overview-image img {
   position: relative;
-  max-width: 100%;
+  width: 100%;
 }
 
 .item-descr span.name {
@@ -256,4 +287,27 @@ div.header .comb {
 .item-descr span.name:after {
   content: '“';
   margin-left: 5px;
+}
+
+.zimmer-left {
+  float: left;
+  width: 75%;
+}
+
+.zimmer-right {
+  float: right;
+  width: calc(25% - 21px);
+  margin-left: 21px;
+}
+
+.anfrage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  background: #959242;
+}
+.anfrage span {
+  font-weight: bold;
+  font-size: 21px;
 }

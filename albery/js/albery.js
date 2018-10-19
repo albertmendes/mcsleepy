@@ -14,9 +14,9 @@
   $.fn.albery = function(options) {
     var settings = $.extend({
       speed: 500,
-      imgWidth: "600",
+      imgWidth: "700",
       paginationBorder: 5,
-      paginationItemWidth: 116,
+      paginationItemWidth: 136,
     }, options);
 
 

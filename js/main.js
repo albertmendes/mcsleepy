@@ -10,7 +10,7 @@
 
     function computeHeights() {
       var itemLeftHeight = $(".overview-item-left img").height();
-      $(".overview-item-right").css("height", itemLeftHeight);
+      $(".overview-item-right").animate({"height": itemLeftHeight},500);
     }
     computeHeights();
 
@@ -19,7 +19,7 @@
     });
 
     /* Fade in items */
-    $(".fade-in").each(function(b) {
+    $(".fade-in").each(function(b) {
       $(this).delay(344 * b).animate({
         opacity: 1,
         left: 0

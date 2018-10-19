@@ -1,7 +1,9 @@
 .albery-container, .pagination-container {
 	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+	/* center it */
+
+	/*margin-left: auto;
+	margin-right: auto;*/
 	width: 400px;
 	overflow: hidden;
 }
