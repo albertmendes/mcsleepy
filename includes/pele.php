@@ -91,11 +91,16 @@
     <div class="anfrage">
       <span>Anfrage</span>
     </div>
-    <div class="preis-etc">
-      <div>
-        Preis: ab 15 € <br>
-        pro Mann
-      </div>
+
+    <div class="preis-box">
+      Preis: ab 15 € <br>
+      pro Mann
+    </div>
+    <div class="middle-box">
+
+    </div>
+    <div class="bottom-box">
+
     </div>
   </div>
 
@@ -105,6 +110,6 @@
     $(".albery-container").albery({
       speed: 500,
       imgWidth: containerWidth,
-      paginationItemWidth: 146,
+      paginationItemWidth: 143,
     });
 </script>

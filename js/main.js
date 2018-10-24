@@ -11,6 +11,8 @@
     function computeHeights() {
       var itemLeftHeight = $(".overview-item-left img").height();
       $(".overview-item-right").animate({"height": itemLeftHeight},500);
+      var zimmerLeftHeight = $(".zimmer-left").height();
+      $(".zimmer-right").css("height", zimmerLeftHeight);
     }
     computeHeights();
 

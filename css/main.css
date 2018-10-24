@@ -238,6 +238,7 @@ div.header .comb {
   /*
     height is computed with javascript
   */
+  height: 10px;
 }
 .overview-item-right a.item-details-link {
   position: relative;
@@ -294,6 +295,7 @@ div.header .comb {
   width: 75%;
 }
 
+/* Height is computed in main.js */
 .zimmer-right {
   float: right;
   width: calc(25% - 21px);
@@ -304,10 +306,33 @@ div.header .comb {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 55px;
+  height: 10%;
   background: #a69f44;
 }
 .anfrage span {
   font-weight: bold;
   font-size: 21px;
+}
+
+
+/* Height is percentage of .zimmer-right */
+.preis-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 23%;
+  font-weight: bold;
+  font-size: 21px;
+  background: rgba(253,252,239, 1);
+  margin-top: 13px;
+}
+.middle-box {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  background: rgba(253,252,239, 1);
+  height: 27%;
+}
+.bottom-box {
+  background: rgba(253,252,239, 1);
+  height: calc(40% - 16px);
 }
