@@ -1,7 +1,7 @@
 <div class="header">
   <div class="container">
     <div class="comb-wrapper">
-      <img src="img/Logo.svg" class="comb comb-logo" alt="">
+      <img src="img/logo.svg" class="comb comb-logo" alt="">
       <img src="img/comb_bed.svg" class="comb comb-bed" alt="">
       <img src="img/comb_phone.svg" class="comb comb-phone" alt="">
       <img src="img/comb_price.svg" class="comb comb-price" alt="">
