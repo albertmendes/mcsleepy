@@ -20,6 +20,12 @@
   src: url("../fonts/Zetafonts.Freehand.Icon.UI.woff");
 }
 
+.debug {
+  float: left;
+  margin-right: 21px;
+  font-weight: bold;
+}
+
 body {
   background-color: #EEEDDA;
   font-family: "Carrois-Gothic";
@@ -29,11 +35,14 @@ body {
 * {
   box-sizing: border-box;
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+}
 .container {
   padding-left: 21px;
   padding-right: 21px;
-  max-width: 1024px;
+  max-width: 987px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -47,6 +56,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .spacer-102 {
   height: 102px;
 }
@@ -122,6 +132,7 @@ div.header .comb {
 .logo-zimmer img {
   position: absolute;
   width: 140px;
+  height: auto;
   top: -34px;
   left: -55px;
   z-index: 2;
@@ -331,8 +342,118 @@ div.header .comb {
   border-bottom: 1px solid #999;
   background: rgba(253,252,239, 1);
   height: 27%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.middle-box ul span, .bottom-box ul span {
+  display: block;
+  position: relative;
+  left: -18px;
+  padding-bottom: 8px;
 }
 .bottom-box {
   background: rgba(253,252,239, 1);
   height: calc(40% - 16px);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.middle-box ul, .bottom-box ul {
+  padding-left: 34px;
+}
+
+div.clear-both {
+  clear: both;
+}
+.zimmer-gray-stripe {
+  position: relative;
+  margin-top: 21px;
+  background: rgba(74,82,92,1);
+  color: white;
+  padding: 13px 21px 13px 21px;
+  width: 75%;
+  height: 68px;
+  display: flex;
+  align-items: center;
+}
+.zimmer-green-stripe {
+  width: 75%;
+  background: rgba(166,159,68,1);
+  height: 55px;
+  padding: 8px 34px 8px 8px;
+  display: flex;
+  align-items: center;
+}
+.zimmer-green-stripe .name {
+  font-family: 'Zetafonts-Brush';
+  font-size: 21px;
+}
+.zimmer-green-stripe span.name-add {
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 21px;
+}
+.zimmer-green-stripe:before {
+  position: relative;
+  content: '';
+  display: block;
+  align-items: center;
+  background: url(../img/schraube.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  left: -8px;
+  top: 11px;
+}
+
+ul.zimmer-social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+ul.zimmer-social-icons li {
+  margin-right: 21px;
+}
+ul.zimmer-social-icons li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Zetafonts-Icon';
+  font-size: 21px;
+}
+div.zimmer-ort {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 21px;
+}
+
+.zimmer-titel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.zimmer-beschreibung-full {
+  background: rgba(253,252,239, 1);
+  width: 75%;
+  padding: 21px 34px;
+}
+.zimmer-beschreibung-full h2 {
+  font-weight: normal;
+}
+.ul-beschreibung-full {
+  margin: 21px 0;
+}
+.ul-beschreibung-full li {
+  margin-left: 21px;
+  line-height: 24px;
 }

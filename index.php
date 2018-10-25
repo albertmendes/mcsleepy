@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css?v=2510">
 		<link rel="stylesheet" type="text/css" href="albery/css/albery.css">
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="albery/js/albery.js"></script>
@@ -53,6 +53,9 @@
 					case '/Pele':
 						include('includes/pele.php');
 						break;
+					case '/Maradona':
+						include('includes/maradona.php');
+						break;
 					case '/FAQ':
 						include('includes/faq.php');
 						break;
@@ -63,6 +66,6 @@
 		</div> <!-- wrap end -->
 
 
-		<script src="js/main.js"></script>
+		<script src="js/main.js?v=2510"></script>
 	</body>
 </html>

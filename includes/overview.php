@@ -72,7 +72,7 @@
       <div class="item-descr">
         <span class="name">Maradona</span> <strong>2 - 5 Mann (+1)</strong>
       </div>
-      <a href="#" class="item-details-link">Details</a>
+      <a href="/Maradona" class="item-details-link">Details</a>
     </div>
   </div>
 </div>
