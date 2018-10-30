@@ -18,6 +18,7 @@
 
     $(window).on("resize", function() {
       computeHeights();
+      $(".debug").html(window.innerWidth);
     });
 
     /* Fade in items */
@@ -29,10 +30,20 @@
     });
 
     /* Animation  */
-    function doAnimation() {
+    function doAnimation(device) {
+      var left;
+      var top;
+      switch(device) {
+        case 'tablet':
+          left = ["124px", "124px", "240px", "10px"];
+          top = "0px";
+          break;
+        default:
+          left = ["124px", "124px", "240px", "10px"];
+      }
       setTimeout(function() {
         $(".comb-logo").animate({
-          left: "344px",
+          left: left[0],
           top: "0",
           opacity: 1
         },1000);
@@ -41,7 +52,7 @@
 
       setTimeout(function() {
         $(".comb-phone").animate({
-          left: "344px",
+          left: left[1],
           top: "130px",
           opacity: 1,
         },1000);
@@ -50,7 +61,7 @@
 
       setTimeout(function() {
         $(".comb-price").animate({
-          left: "460px",
+          left: left[2],
           top: "63px",
           opacity: 1,
         },1000);
@@ -58,41 +69,64 @@
       },900);
       setTimeout(function() {
         $(".comb-bed").animate({
-          left: "230px",
+          left: left[3],
           top: "195px",
           opacity: 1,
         },1000);
         $(".comb-bed").addClass("anim");
-      },900)
+      },900);
     }
 
-    function showCombs() {
+    function showCombs(device) {
+      var left;
+      var top;
+      switch(device) {
+        case 'tablet':
+          left = ["144px", "144px", "260px", "30px"];
+          top = "0px";
+          break;
+        case 'mobile':
+          left = ["94px", "94px", "210px", "-20px"];
+          break;
+        default:
+          left = ["144px", "144px", "260px", "30px"];
+      }
       $(".comb-logo").css({
-        left: "344px",
+        left: left[0],
         top: "0",
         opacity: 1
       });
       $(".comb-phone").css({
-        left: "344px",
+        left: left[1],
         top: "130px",
         opacity: 1,
       });
       $(".comb-price").css({
-        left: "460px",
+        left: left[2],
         top: "63px",
         opacity: 1,
       });
       $(".comb-bed").css({
-        left: "230px",
+        left: left[3],
         top: "195px",
         opacity: 1,
       });
     }
 
     if(document.cookie.split(';').filter(function(item) {
-      return item.indexOf('animation') >= 0
+      return item.indexOf('animation') >= 0;
     }).length) {
-      showCombs();
+      console.log(window.innerWidth);
+      if(window.innerWidth <= 425) {
+        showCombs('mobile');
+      }
+      else if(window.innerWidth > 425 && window.innerWidth <= 768) {
+        showCombs('tablet');
+      }
+      else {
+        showCombs();
+      }
+
     }
     else {
       doAnimation();

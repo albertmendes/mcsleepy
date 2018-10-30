@@ -264,6 +264,25 @@ div.header .comb {
   text-transform: uppercase;
   z-index: 1;
 }
+
+@media (max-width: 480px) {
+  .overview-item-right a.item-details-link {
+    font-size: 14px !important;
+    bottom: 16px;
+    right: 3px;
+  }
+  .overview-item-left:after {
+    top: -34px;
+    width: 34px;
+    height: 34px;
+  }
+  .item-descr span.name {
+    font-size: 16px !important;
+  }
+  .wievielmann {
+    font-size: 16px;
+  }
+}
 .item-head {
   background: #3b464d;
   color: white;
@@ -358,6 +377,20 @@ div.header .comb {
   font-size: 14px;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 920px) {
+  .bottom-box, .middle-box {
+    font-size: 12px;
+  }
+}
+@media (max-width: 750px) {
+  .zimmer-left, .zimmer-gray-stripe, .zimmer-green-stripe, .zimmer-beschreibung-full {
+    width: 100% !important;
+  }
+  .zimmer-right {
+    display: none;
+  }
 }
 
 .middle-box ul, .bottom-box ul {

@@ -47,7 +47,7 @@
         97896 Freundenberg / Main
       </div>
       <div class="item-descr">
-        <span class="name">Pelé</span> <strong>4 - 8 Mann</strong>
+        <span class="name">Pelé</span> <span class="wievielmann"><strong>4 - 8 Mann</strong></span>
       </div>
       <a href="/Pele" class="item-details-link">Details</a>
     </div>
@@ -70,7 +70,7 @@
         97896 Freundenberg / Main
       </div>
       <div class="item-descr">
-        <span class="name">Maradona</span> <strong>2 - 5 Mann (+1)</strong>
+        <span class="name">Maradona</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
       </div>
       <a href="/Maradona" class="item-details-link">Details</a>
     </div>
@@ -91,7 +91,7 @@
         97877 Bettingen / Main
       </div>
       <div class="item-descr">
-        <span class="name">Totti</span> <strong>4 - 6 Mann (+1)</strong>
+        <span class="name">Totti</span> <span class="wievielmann"><strong>4 - 6 Mann (+1)</strong></span>
       </div>
       <a href="#" class="item-details-link">Details</a>
     </div>
@@ -112,7 +112,7 @@
         97877 Bettingen / Main
       </div>
       <div class="item-descr">
-        <span class="name">Del Piero</span> <strong>2 - 5 Mann (+1)</strong>
+        <span class="name">Del Piero</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
       </div>
       <a href="#" class="item-details-link">Details</a>
     </div>
@@ -133,7 +133,7 @@
         97877 Wertheim / Main
       </div>
       <div class="item-descr">
-        <span class="name">Zidane</span> <strong>2 - 5 Mann (+1)</strong>
+        <span class="name">Zidane</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
       </div>
       <a href="#" class="item-details-link">Details</a>
     </div>
@@ -154,7 +154,7 @@
         97877 Wertheim / Main
       </div>
       <div class="item-descr">
-        <span class="name">Buffon</span> <strong>2 - 6 Mann</strong>
+        <span class="name">Buffon</span>  <span class="wievielmann"><strong>2 - 6 Mann</strong></span>
       </div>
       <a href="#" class="item-details-link">Details</a>
     </div>
@@ -175,7 +175,7 @@
         97877 Wertheim / Main
       </div>
       <div class="item-descr">
-        <span class="name">Rooney</span> <strong>2 - 5 Mann (+2)</strong>
+        <span class="name">Rooney</span> <span class="wievielmann"><strong>2 - 5 Mann (+2)</strong></span>
       </div>
       <a href="#" class="item-details-link">Details</a>
     </div>
@@ -196,7 +196,7 @@
         97877 Wertheim / Main
       </div>
       <div class="item-descr">
-        <span class="name">Drogba</span> <strong>2 - 5 Mann (+2)</strong>
+        <span class="name">Drogba</span> <span class="wievielmann"><strong>2 - 5 Mann (+2)</strong></span>
       </div>
       <a href="#" class="item-details-link">Details</a>
     </div>

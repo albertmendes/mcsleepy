@@ -39,6 +39,7 @@
 		<div class="wrap">
 			<div class="navi">
 				<div class="container">
+						<span class="debug"></span>
 						<ul>
 							<li><a href="./">Zimmer</a></li>
 							<li><a href="./FAQ">Faq</a></li>

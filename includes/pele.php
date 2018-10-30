@@ -207,16 +207,7 @@
 
 </div> <!-- container end -->
 
-<div id="debug" style="margin-top: 144px">
-  <label for="scrw" class="debug">Width:</label>
-  <div id="scrw"></div>
 
-  <label for="scrh" class="debug">Height:</label>
-  <div id="scrh"></div>
-
-  <label for="ua" class="debug">Ua:</label>
-  <div id="ua"></div>
-</div>
 <script>
     var containerWidth = $(".zimmer-left").width();
     $(".albery-container").albery({
@@ -225,13 +216,4 @@
       paginationItemWidth: 138,
     });
 
-    /* DEBUG */
-
-    function dgid(id) {
-      return document.getElementById(id);
-    }
-
-    dgid("scrw").textContent = screen.width;
-    dgid("scrh").textContent = screen.height;
-    dgid("ua").textContent = navigator.userAgent;
 </script>
