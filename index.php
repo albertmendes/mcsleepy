@@ -27,6 +27,12 @@
 					case '/Impressum':
 						echo 'Impressum - mcsleepy.de';
 						break;
+					case '/Pele':
+						echo 'Monteurzimmer / Ferienwohnung Pel&eacute; in Freudenberg - mcsleepy.de';
+						break;
+					case '/Maradona':
+						echo 'Monteurzimmer / Ferienwohnung Maradona in Freudenberg - mcsleepy.de';
+						break;
 					default:
 						echo 'mcsleepy.de';
 				}

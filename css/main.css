@@ -520,7 +520,7 @@ div.zimmer-ort {
   font-size: 21px;
 }
 
-@media (max-width: 506px) {
+@media (max-width: 511px) {
   div.zimmer-ort {
     font-size: 14px;
   }

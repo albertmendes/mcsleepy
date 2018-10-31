@@ -47,7 +47,7 @@
         97896 Freundenberg
       </div>
       <div class="item-descr">
-        <span class="name">Pelé</span> <span class="wievielmann"><strong>4 - 8 Mann</strong></span>
+        <span class="name">Pel&eacute;</span> <span class="wievielmann"><strong>4 - 8 Mann</strong></span>
       </div>
       <a href="/Pele" class="item-details-link">Details</a>
     </div>
@@ -193,7 +193,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97877 Wertheim 
+        97877 Wertheim
       </div>
       <div class="item-descr">
         <span class="name">Drogba</span> <span class="wievielmann"><strong>2 - 5 Mann (+2)</strong></span>
