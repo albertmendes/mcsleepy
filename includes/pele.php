@@ -5,6 +5,16 @@
     <img src="img/logo.svg" alt="">
   </div>
 
+
+  <div class="anfrage-mobile-wrapper">
+    <div class="anfrage-mobile" data-url="Pele">
+      Anfrage
+    </div>
+    <div class="preis-ab-mobile">
+      ab 15 €
+    </div>
+    <div class="clear-both"></div>
+  </div>
   <div class="zimmer-left">
     <div class="albery-container">
       <div class="albery-wrapper">

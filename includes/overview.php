@@ -44,7 +44,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97896 Freundenberg / Main
+        97896 Freundenberg
       </div>
       <div class="item-descr">
         <span class="name">Pelé</span> <span class="wievielmann"><strong>4 - 8 Mann</strong></span>
@@ -67,7 +67,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97896 Freundenberg / Main
+        97896 Freundenberg
       </div>
       <div class="item-descr">
         <span class="name">Maradona</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
@@ -88,7 +88,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97877 Bettingen / Main
+        97877 Bettingen
       </div>
       <div class="item-descr">
         <span class="name">Totti</span> <span class="wievielmann"><strong>4 - 6 Mann (+1)</strong></span>
@@ -109,7 +109,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97877 Bettingen / Main
+        97877 Bettingen
       </div>
       <div class="item-descr">
         <span class="name">Del Piero</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
@@ -130,7 +130,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97877 Wertheim / Main
+        97877 Wertheim
       </div>
       <div class="item-descr">
         <span class="name">Zidane</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
@@ -151,7 +151,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97877 Wertheim / Main
+        97877 Wertheim
       </div>
       <div class="item-descr">
         <span class="name">Buffon</span>  <span class="wievielmann"><strong>2 - 6 Mann</strong></span>
@@ -172,7 +172,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97877 Wertheim / Main
+        97877 Wertheim
       </div>
       <div class="item-descr">
         <span class="name">Rooney</span> <span class="wievielmann"><strong>2 - 5 Mann (+2)</strong></span>
@@ -193,7 +193,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97877 Wertheim / Main
+        97877 Wertheim 
       </div>
       <div class="item-descr">
         <span class="name">Drogba</span> <span class="wievielmann"><strong>2 - 5 Mann (+2)</strong></span>

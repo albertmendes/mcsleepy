@@ -5,7 +5,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css?v=2510">

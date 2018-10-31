@@ -81,6 +81,11 @@ ul {
   z-index: 2;
   top: 0;
 }
+@media (max-width: 425px) {
+  .navi ul {
+    display: none;
+  }
+}
 
 .navi ul {
   float: right;
@@ -128,6 +133,11 @@ div.header .comb {
   z-index: 2 ;
   width: 140px;
 }
+@media (max-width: 425px) {
+  div.header .comb {
+    width: 110px;
+  }
+}
 
 .logo-zimmer img {
   position: absolute;
@@ -164,7 +174,7 @@ div.header .comb {
 }
 
 .comb-price {
-  left: 1000px;;
+  left: 450px;;
   top: calc(173px / 2);
   opacity: 0;
   transition: transform 1s;
@@ -174,13 +184,13 @@ div.header .comb {
 }
 
 .comb-bed {
-  left: 400px;
+  left: 300px;
   top: calc((173px + 5px) + ((173px + 5px) / 2));
   opacity: 0;
   transition: transform 1s;
 }
 .comb-bed.anim {
-  transform: rotate(360deg);
+  transform: rotate(720deg);
 }
 
 .green-stripe {
@@ -249,7 +259,7 @@ div.header .comb {
   /*
     height is computed with javascript
   */
-  height: 10px;
+  height: 100px;
 }
 .overview-item-right a.item-details-link {
   position: relative;
@@ -313,11 +323,11 @@ div.header .comb {
 }
 .item-descr span.name:before {
   content: '„';
-  margin-right: 5px;
+  margin-right: 3px;
 }
 .item-descr span.name:after {
   content: '“';
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 .zimmer-left {
@@ -379,6 +389,39 @@ div.header .comb {
   align-items: center;
 }
 
+.anfrage-mobile-wrapper {
+  display: none;
+}
+.anfrage-mobile {
+  float: left;
+  width: 60%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding: 8px 8px 8px 34px;
+  background: rgb(249,102,28);
+  font-weight: bold;
+  font-size: 21px;
+  color: #333;
+  cursor: pointer;
+}
+.preis-ab-mobile {
+  width: 40%;
+  float: right;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background: rgb(253,252,239);
+  color: rgba(166,159,68,1);
+  font-weight: bold;
+  font-size: 21px;
+  border: 3px solid rgb(249,102,28);
+}
+
+
+
 @media (max-width: 920px) {
   .bottom-box, .middle-box {
     font-size: 12px;
@@ -390,6 +433,14 @@ div.header .comb {
   }
   .zimmer-right {
     display: none;
+  }
+  .anfrage-mobile-wrapper {
+    display: block;
+  }
+  .logo-zimmer img {
+    width: 89px;
+    top: -100px;
+    cursor: pointer;
   }
 }
 
@@ -451,6 +502,7 @@ ul.zimmer-social-icons {
   justify-content: flex-start;
   width: 100%;
 }
+
 ul.zimmer-social-icons li {
   margin-right: 21px;
 }
@@ -468,6 +520,18 @@ div.zimmer-ort {
   font-size: 21px;
 }
 
+@media (max-width: 506px) {
+  div.zimmer-ort {
+    font-size: 14px;
+  }
+  ul.zimmer-social-icons li {
+    margin-right: 13px;
+  }
+  ul.zimmer-social-icons li a {
+    font-size: 16px;
+  }
+}
+
 .zimmer-titel {
   display: flex;
   align-items: center;
@@ -479,6 +543,9 @@ div.zimmer-ort {
   background: rgba(253,252,239, 1);
   width: 75%;
   padding: 21px 34px;
+}
+.zimmer-beschreibung-full p {
+  line-height: 21px;
 }
 .zimmer-beschreibung-full h2 {
   font-weight: normal;
