@@ -35,7 +35,7 @@
 
 <!-- WOHNUNG PELE -->
 <div class="container-small fade-in">
-  <div class="overview-item">
+  <div class="overview-item" data-link="/Pele">
     <div class="overview-item-left">
       <div class="overview-image">
         <img src="img/gallery/pele/1_thumb.jpg" alt="">
@@ -44,7 +44,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97896 Freundenberg
+        97896 Freudenberg
       </div>
       <div class="item-descr">
         <span class="name">Pel&eacute;</span> <span class="wievielmann"><strong>4 - 8 Mann</strong></span>
@@ -54,11 +54,12 @@
   </div>
 </div>
 
-<br>
+<div class="clear-both"></div>
+
 <!-- WOHNUNG MARADONA -->
 
 <div class="container-small fade-in">
-  <div class="overview-item">
+  <div class="overview-item" data-link="/Maradona">
     <div class="overview-item-left">
       <div class="overview-image">
         <img src="img/gallery/maradona/1_thumb.jpg" alt="">
@@ -67,7 +68,7 @@
 
     <div class="overview-item-right">
       <div class="item-head">
-        97896 Freundenberg
+        97896 Freudenberg
       </div>
       <div class="item-descr">
         <span class="name">Maradona</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
@@ -77,9 +78,11 @@
   </div>
 </div>
 
+<div class="clear-both"></div>
+
 <!-- Wohnung Totti -->
 <div class="container-small fade-in">
-  <div class="overview-item">
+  <div class="overview-item" data-link="/Totti">
     <div class="overview-item-left">
       <div class="overview-image">
         <img src="img/gallery/totti/1_thumb.jpg" alt="">
@@ -93,14 +96,16 @@
       <div class="item-descr">
         <span class="name">Totti</span> <span class="wievielmann"><strong>4 - 6 Mann (+1)</strong></span>
       </div>
-      <a href="#" class="item-details-link">Details</a>
+      <a href="/Totti" class="item-details-link">Details</a>
     </div>
   </div>
 </div>
 
+<div class="clear-both"></div>
+
 <!-- Wohnung Del Piero -->
 <div class="container-small fade-in">
-  <div class="overview-item">
+  <div class="overview-item" data-link="/DelPiero">
     <div class="overview-item-left">
       <div class="overview-image">
         <img src="img/gallery/delpiero/1_thumb.jpg" alt="">
@@ -114,14 +119,16 @@
       <div class="item-descr">
         <span class="name">Del Piero</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
       </div>
-      <a href="#" class="item-details-link">Details</a>
+      <a href="/DelPiero" class="item-details-link">Details</a>
     </div>
   </div>
 </div>
 
+<div class="clear-both"></div>
+
 <!-- Wohnung Zidane -->
 <div class="container-small fade-in">
-  <div class="overview-item">
+  <div class="overview-item" data-link="/Zidane">
     <div class="overview-item-left">
       <div class="overview-image">
         <img src="img/gallery/zidane/1_thumb.jpg" alt="">
@@ -135,14 +142,16 @@
       <div class="item-descr">
         <span class="name">Zidane</span> <span class="wievielmann"><strong>2 - 5 Mann (+1)</strong></span>
       </div>
-      <a href="#" class="item-details-link">Details</a>
+      <a href="/Zidane" class="item-details-link">Details</a>
     </div>
   </div>
 </div>
 
+<div class="clear-both"></div>
+
 <!-- Wohnung Buffon -->
 <div class="container-small fade-in">
-  <div class="overview-item">
+  <div class="overview-item" data-link="/Buffon">
     <div class="overview-item-left">
       <div class="overview-image">
         <img src="img/gallery/buffon/1_thumb.jpg" alt="">
@@ -156,14 +165,16 @@
       <div class="item-descr">
         <span class="name">Buffon</span>  <span class="wievielmann"><strong>2 - 6 Mann</strong></span>
       </div>
-      <a href="#" class="item-details-link">Details</a>
+      <a href="/Buffon" class="item-details-link">Details</a>
     </div>
   </div>
 </div>
 
+<div class="clear-both"></div>
+
 <!-- Wohnung Rooney -->
 <div class="container-small fade-in">
-  <div class="overview-item">
+  <div class="overview-item" data-link="/Rooney">
     <div class="overview-item-left">
       <div class="overview-image">
         <img src="img/gallery/rooney/1_thumb.jpg" alt="">
@@ -177,14 +188,16 @@
       <div class="item-descr">
         <span class="name">Rooney</span> <span class="wievielmann"><strong>2 - 5 Mann (+2)</strong></span>
       </div>
-      <a href="#" class="item-details-link">Details</a>
+      <a href="/Rooney" class="item-details-link">Details</a>
     </div>
   </div>
 </div>
 
+<div class="clear-both"></div>
+
 <!-- Wohnung Drogba -->
 <div class="container-small fade-in">
-  <div class="overview-item">
+  <div class="overview-item" data-link="/Drogba">
     <div class="overview-item-left">
       <div class="overview-image">
         <img src="img/gallery/drogba/1_thumb.jpg" alt="">
@@ -198,7 +211,9 @@
       <div class="item-descr">
         <span class="name">Drogba</span> <span class="wievielmann"><strong>2 - 5 Mann (+2)</strong></span>
       </div>
-      <a href="#" class="item-details-link">Details</a>
+      <a href="/Drogba" class="item-details-link">Details</a>
     </div>
   </div>
 </div>
+
+<div class="clear-both"></div>

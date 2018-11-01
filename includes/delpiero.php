@@ -6,7 +6,7 @@
   </div>
 
   <div class="anfrage-mobile-wrapper">
-    <div class="anfrage-mobile" data-url="Pele">
+    <div class="anfrage-mobile" data-url="DelPiero">
       Anfrage
     </div>
     <div class="preis-ab-mobile">
@@ -20,10 +20,10 @@
       <div class="albery-wrapper">
 
         <?php
-          for($i = 1; $i <= 18; $i++) {
+          for($i = 1; $i <= 9; $i++) {
             echo '
             <div class="albery-item">
-              <img src="img/gallery/pele/' . $i . '.jpg" alt="">
+              <img src="img/gallery/delpiero/' . $i . '.jpg" alt="">
             </div>
             ';
           }
@@ -44,10 +44,10 @@
       <div class="pagination-wrapper">
 
         <?php
-          for($i = 1; $i <= 18; $i++) {
+          for($i = 1; $i <= 9; $i++) {
             echo '
             <div class="pagination-item" data-item="' . $i . '">
-              <img src="img/gallery/pele/' . $i . '_thumb.jpg" alt="">
+              <img src="img/gallery/delpiero/' . $i . '_thumb.jpg" alt="">
             </div>
             ';
           }
@@ -78,11 +78,11 @@
     <div class="bottom-box">
       <ul>
         <span>AUSSTATTUNG</span>
-        <li>135 m<sup>2</sup></li>
-        <li>3 Schlafzimmer 3/3/2</li>
-        <li>Bad mit WC</li>
+        <li>105 m<sup>2</sup></li>
+        <li>2 Schlafzimmer 2/2</li>
+        <li>Bad</li>
         <li>WC</li>
-        <li>großes Wohnzimmer (+2)</li>
+        <li>offenes Wohnzimmer (+1)</li>
         <li>alle Zimmer mit Rolladen</li>
         <li>großer Balkon</li>
         <li>Nichtraucherwohnung</li>
@@ -101,67 +101,72 @@
       <li><a href="#">t</a></li>
     </ul>
     <div class="zimmer-ort">
-      97896 Freudenberg
+      97877 Bettingen
     </div>
   </div>
   <div class="zimmer-green-stripe">
     <div class="zimmer-titel">
-      <span class="name">Pel&eacute;</span>
-      <span class="name-add">4 - 8 Mann (+2)</span>
+      <span class="name">Del Piero</span>
+      <span class="name-add">2 - 5 (+1)</span>
     </div>
   </div>
   <div class="zimmer-beschreibung-full">
     <h2>Beschreibung:</h2>
     <p>
-      Zentrale Lage im ruhigen Wohngebiet mit guter Infrastruktur <br>
-      Erdgeschosswohnung 135m2 im Haus mit „Maradona“ <br>
-      Supermarkt: 200m
+      Sehr ruhige Lage im Ortskern trotz direkter Anbindung an die A3 <br>
+      Erstes Obergeschoss, 105 m2, im Haus mit „Totti“ und „Hagi“ <br>
+      Supermarkt: 8km
     </p>
+
     <ul class="ul-beschreibung-full">
-      WOHNZIMMER
-      <li>35 m<sup>2</sup></li>
-      <li>Parkettboden</li>
-      <li>Zwei Schlafsofas (optional von zwei zusätzlichen Personen nutzbar)</li>
+      Vor Ort:
+      <li>Dorfladen 500m</li>
+      <li>großer Autohof mit Restaurant und Shop</li>
+      <li>Mc Donald / Burger King</li>
+      <li>Outletcenter „Wertheim Village“ (180 Boutiquen)</li>
+    </ul>
+
+    <ul class="ul-beschreibung-full">
+      WOHNZIMMER mit Essbereich
+      <li>offener Wohn- und Essbereich</li>
+      <li>29 m<sup>2</sup></li>
+      <li>Zwei Schlafsofas (optional von einer weiteren Person nutzbar)</li>
       <li>TV</li>
     </ul>
 
     <ul class="ul-beschreibung-full">
       ZIMMER 1
-      <li>3 Einzelbetten</li>
+      <li>2 Einzelbetten</li>
+      <li>große Schrankwand</li>
     </ul>
 
     <ul class="ul-beschreibung-full">
       ZIMMER 2
-      <li>2 Einzelbetten, Kleiderschrank, kleiner Tisch mit Stuhl</li>
-    </ul>
-
-    <ul class="ul-beschreibung-full">
-      ZIMMER 3
-      <li>3 Einzelbetten, Kleiderschrank, offenes Regal</li>
+      <li>2 Einzelbetten</li>
+      <li>Schrank, Regal</li>
     </ul>
 
     <ul class="ul-beschreibung-full">
       KÜCHE
-      <li>2 große Standkühlschränke mit Gefrierfach</li>
-      <li>Kaffemaschine</li>
+      <li>Einbauküche mit großem Kühlschrank / Gefrierschrank</li>
+      <li>Herd mit Cerankochfeld und Backofen</li>
+      <li>Spülmaschine</li>
+      <li>Kaffeemaschine</li>
       <li>Mikrowelle</li>
       <li>Wasserkocher</li>
-      <li>Herd mit Cerankochfeld und Backofen</li>
+      <li>Toaster</li>
     </ul>
 
     <ul class="ul-beschreibung-full">
       ESSBEREICH
-      <li>offener und heller Sitzbereich</li>
-      <li>Esstisch mit Bank und Stühlen</li>
+      <li>Esstisch im offenen und hellen Sitzbereich mit Balkonzugang</li>
     </ul>
 
     <ul class="ul-beschreibung-full">
       BAD
-      <li>Tageslichtbad</li>
+      <li>Tageslicht</li>
       <li>Dusche</li>
-      <li>Badewanne</li>
       <li>Waschmaschine</li>
-      <li>WC</li>
     </ul>
 
     <ul class="ul-beschreibung-full">
@@ -172,7 +177,6 @@
     <ul class="ul-beschreibung-full">
       BALKON
       <li>Westbalkon</li>
-      <li>sehr großer, heller Balkon über die gesamte Hauslänge</li>
     </ul>
   </div>
 

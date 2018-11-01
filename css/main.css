@@ -81,7 +81,7 @@ ul {
   z-index: 2;
   top: 0;
 }
-@media (max-width: 425px) {
+@media (max-width: 506px) {
   .navi ul {
     display: none;
   }
@@ -118,6 +118,32 @@ div.header {
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 1024px) {
+  div.header {
+    height: 266px;
+  }
+}
+@media (max-width: 768px) {
+  div.header {
+    height: 200px;
+    background: url(../img/startbild.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100% -50px;
+  }
+}
+@media (max-width: 506px) {
+  div.header {
+    height: 250px;
+    background: url(../img/startbild_mobile.jpg) no-repeat;
+    background-size: auto;
+    background-position: -150px 0;
+  }
+}
+@media (max-width: 375px) {
+  div.header {
+    background-position: -200px 0;
+  }
+}
 @media (min-width: 1540px) {
   div.header {
     height: 444px;
@@ -133,10 +159,18 @@ div.header .comb {
   z-index: 2 ;
   width: 140px;
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   div.header .comb {
     width: 110px;
   }
+}
+
+.logo-kontakt {
+  position: absolute;
+  cursor: pointer;
+}
+.logo-kontakt img {
+  width: 89px;
 }
 
 .logo-zimmer img {
@@ -236,6 +270,7 @@ div.header .comb {
 }
 .overview-item {
   clear: both;
+  cursor: pointer;
 }
 .overview-item-left {
   float: left;
@@ -557,3 +592,150 @@ div.zimmer-ort {
   margin-left: 21px;
   line-height: 24px;
 }
+
+.kontakt-formular {
+  margin-top: 144px;
+}
+.kontakt-formular input[type="text"], input[type="email"], textarea {
+  display: block;
+  padding: 13px;
+  width: 100%;
+  color: #333;
+  border: 0;
+  margin-bottom: 21px;
+}
+.kontakt-formular textarea {
+  min-height: 344px;
+}
+
+.kontakt-formular input[type="submit"] {
+  display: block;
+  padding: 13px;
+  width: 100%;
+}
+
+/* Mobile nav */
+.burgerBun {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  /*background: white;*/
+  border-radius: 100%;
+  top: 0px;
+  right: 13px;
+  z-index: 999;
+  opacity: 0.8;
+  background: transparent;
+	display: none;
+}
+@media (max-width: 506px) {
+  .burgerBun {
+    display: block;
+  }
+}
+
+.burgerMenu {
+  position: absolute;
+  top: 17px;
+  left: 11px;
+  display: block;
+  width: 40px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.burgerMenu span.menu1, .burgerMenu span.menu2, .burgerMenu span.menu3 {
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  width: 34px;
+  height: 5px;
+  left: 0;
+  background: #eee;
+  -webkit-transition: all 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
+  transition: all 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
+}
+
+.burgerMenu span.menu1 {
+  top: 0;
+}
+.burgerMenu span.menu2 {
+  top: 8px;
+}
+.burgerMenu span.menu3 {
+  top: 16px;
+}
+
+.burgerMenu.active span.menu1 {
+        top: 14px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: all 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
+        transition: all 0.5s cubic-bezier(0.75, 0.25, 0.10, 0.95);
+}
+.burgerMenu.active span.menu2 {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition: all 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
+        transition: all 0.5s cubic-bezier(0.75, 0.25, 0.10, 0.95);
+	top: 14px;
+}
+.burgerMenu.active span.menu3 {
+        opacity: 0;
+        -webkit-transition: opacity 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
+        transition: opacity 0.35s cubic-bezier(0.75, 0.25, 0.10, 0.95);
+}
+
+
+.mobile-menu {
+    display: block;
+    top: 0;
+    position: fixed;
+    padding: 21px;
+    right: -242px;
+    width: 200px;
+    transition: all .5s;
+    box-shadow: 0 -5px 5px rgba(0,0,0,0.4);
+    background: rgb(253,252,239);
+    height: 100%;
+    z-index: 99;
+}
+.mobile-menu ul {
+    position: relative;
+    top: 89px;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align:center;
+}
+.mobile-menu ul li {
+    text-align: right;
+    margin-bottom: 34px;
+    margin-right: 21px;
+}
+.mobile-menu ul li a {
+    color: black;
+    padding: 13px;
+    transition: all .3s;
+    text-decoration: none;
+}
+.mobile-menu ul li a:hover, .mobile-menu ul li a:focus, .mobile-menu ul li a:active {
+    background: #ff670b;
+    color: white;
+}
+.menu-toggle {
+    right: 0px;
+}
+ /* END mobile menu*/
+
+ .checkbox input {
+   float: left;
+   margin-right: 8px;
+ }

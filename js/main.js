@@ -91,7 +91,7 @@ $(document).ready(function() {
         top = ["0px", "130px", "63px", "195px"];
         break;
       case 'mobile':
-        left = ["100px", "100px", "192px", "7px"];
+        left = ["80px", "80px", "172px", "-13px"];
         top = ["0px", "105px", "52px", "157px"];
         break;
       default:
@@ -124,10 +124,10 @@ $(document).ready(function() {
     return item.indexOf('animation') >= 0;
   }).length) {
     console.log(window.innerWidth);
-    if(window.innerWidth <= 425) {
+    if(window.innerWidth <= 768) {
       showCombs('mobile');
     }
-    else if(window.innerWidth > 425 && window.innerWidth <= 768) {
+    else if(window.innerWidth > 768 && window.innerWidth <= 1024) {
       showCombs('tablet');
     }
     else {
@@ -136,10 +136,10 @@ $(document).ready(function() {
 
   }
   else {
-    if(window.innerWidth <= 425) {
+    if(window.innerWidth <= 768) {
       doAnimation('mobile');
     }
-    else if(window.innerWidth > 425 && window.innerWidth <= 768) {
+    else if(window.innerWidth > 768 && window.innerWidth <= 1024) {
       doAnimation('tablet');
     }
     else {
@@ -177,6 +177,49 @@ $(document).ready(function() {
         $(".navi").css({position: "absolute", "z-index": "2"});
         naviAnim = 0;
       }
+    }
+  });
+
+  /* Kontaktformular */
+  $(".kontakt-formular form").on("submit", function(e) {
+    e.preventDefault();
+    console.log("hey");
+  });
+
+  /* Mobile menu */
+  var menuToggle = false;
+  $(".burgerMenu").on("click", function() {
+    if(menuToggle === false) {
+      $(this).toggleClass("active");
+      $(".mobile-menu").addClass("menu-toggle");
+      menuToggle = true;
+      $(".burgerMenu span").css("background", "#333");
+    }
+    else {
+      $(this).toggleClass("active");
+      $(".mobile-menu").removeClass("menu-toggle");
+      menuToggle = false;
+      $(".burgerMenu span").css("background", "#eee");
+    }
+  });
+
+  $(".overview-item").on("click", function() {
+    console.log(this.dataset.link);
+    window.location.href = this.dataset.link;
+  });
+
+  $(".logo-kontakt").on("click", function() {
+    window.location.href = "/";
+  });
+
+  /* Checkbox Kontaktformular */
+  $("#checkSubmit").on("click", function() {
+    var ischecked = document.getElementById("checkSubmit").checked;
+    if(ischecked === true) {
+      $("#submitForm").prop('disabled', false);
+    }
+    else {
+      $("#submitForm").prop('disabled', true);
     }
   });
 

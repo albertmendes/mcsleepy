@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css?v=2510">
+		<link rel="stylesheet" type="text/css" href="css/main.css?v=01112018">
 		<link rel="stylesheet" type="text/css" href="albery/css/albery.css">
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="albery/js/albery.js"></script>
@@ -33,6 +33,24 @@
 					case '/Maradona':
 						echo 'Monteurzimmer / Ferienwohnung Maradona in Freudenberg - mcsleepy.de';
 						break;
+					case '/Totti':
+						echo 'Monteurzimmer / Ferienwohnung Totti in Bettingen - mcsleepy.de';
+						break;
+					case '/DelPiero':
+						echo 'Monteurzimmer / Ferienwohnung Del Piero in Bettingen - mcsleepy.de';
+						break;
+					case '/Zidane':
+						echo 'Monteurzimmer / Ferienwohnung Zidane in Wertheim - mcsleepy.de';
+						break;
+					case '/Buffon':
+						echo 'Monteurzimmer / Ferienwohnung Buffon in Wertheim - mcsleepy.de';
+						break;
+					case '/Rooney':
+						echo 'Monteurzimmer / Ferienwohnung Rooney in Wertheim - mcsleepy.de';
+						break;
+					case '/Drogba':
+						echo 'Monteurzimmer / Ferienwohnung Drogba in Wertheim - mcsleepy.de';
+						break;
 					default:
 						echo 'mcsleepy.de';
 				}
@@ -42,10 +60,36 @@
 
 	<body>
 
+		<div class="burgerBun">
+			<div class="burgerMenu">
+				<span class="menu1"></span>
+				<span class="menu2"></span>
+				<span class="menu3"></span>
+			</div>
+		</div>
+
+		<div class="mobile-menu">
+			<ul>
+				<li><a href="/Zimmer">Zimmer</a></li>
+				<li><a href="/FAQ">FAQ</a></li>
+				<li><a href="/Kontakt">KONTAKT</a></li>
+				<li><a href="/Impressum">IMPRESSUM</a></li>
+			</ul>
+		</div>
+
 		<div class="wrap">
 			<div class="navi">
 				<div class="container">
-						<span class="debug"></span>
+						<?php
+							switch($_SERVER['REQUEST_URI']) {
+								case '/Kontakt':
+								echo '
+								<div class="logo-kontakt">
+									<img src="img/logo.svg" alt="">
+								</div>
+								';
+							}
+						?>
 						<ul>
 							<li><a href="./">Zimmer</a></li>
 							<li><a href="./FAQ">Faq</a></li>
@@ -63,6 +107,27 @@
 					case '/Maradona':
 						include('includes/maradona.php');
 						break;
+					case '/Totti':
+						include('includes/totti.php');
+						break;
+					case '/DelPiero':
+						include('includes/delpiero.php');
+						break;
+					case '/Zidane':
+						include('includes/zidane.php');
+						break;
+					case '/Buffon':
+						include('includes/buffon.php');
+						break;
+					case '/Rooney':
+						include('includes/rooney.php');
+						break;
+					case '/Drogba':
+						include('includes/drogba.php');
+						break;
+					case '/Kontakt':
+						include('includes/kontakt.php');
+						break;
 					case '/FAQ':
 						include('includes/faq.php');
 						break;
@@ -72,7 +137,7 @@
 
 		</div> <!-- wrap end -->
 
-
-		<script src="js/main.js?v=2510"></script>
+		<span class="debug"></span>
+		<script src="js/main.js?v=01112018"></script>
 	</body>
 </html>

@@ -112,9 +112,10 @@
   <div class="zimmer-beschreibung-full">
     <h2>Beschreibung:</h2>
     <p>
-      Zentrale Lage im ruhigen Wohngebiet mit guter Infrastruktur. Dachgeschosswohnung, gehobene Ausstattung, 74m2,
-im Haus mit „Pelé“
-Supermarkt: 200m
+      Zentrale Lage im ruhigen Wohngebiet mit guter Infrastruktur. <br>
+      Dachgeschosswohnung, gehobene Ausstattung, 74 m<sup>2</sup>,<br>
+      im Haus mit „Pelé“ <br>
+      Supermarkt: 200m
     </p>
     <ul class="ul-beschreibung-full">
       WOHNZIMMER / OFFENE KÜCHE
@@ -132,7 +133,7 @@ Supermarkt: 200m
 
     <ul class="ul-beschreibung-full">
       ZIMMER 2
-      <li>2 Einzelbetten, Regal
+      <li>2 Einzelbetten, Regal</li>
     </ul>
 
     <ul class="ul-beschreibung-full">
