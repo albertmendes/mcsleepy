@@ -57,7 +57,7 @@
   </div> <!-- zimmer-left end -->
 
   <div class="zimmer-right">
-    <div class="anfrage">
+    <div class="anfrage" data-url="Del Piero">
       <span>Anfrage</span>
     </div>
 

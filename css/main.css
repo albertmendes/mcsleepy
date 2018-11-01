@@ -29,7 +29,7 @@
 body {
   background-color: #EEEDDA;
   font-family: "Carrois-Gothic";
-  min-height: 2000px;
+  min-height: 900px;
 }
 
 * {
@@ -383,6 +383,7 @@ div.header .comb {
   justify-content: center;
   height: 10%;
   background: #a69f44;
+  cursor: pointer;
 }
 .anfrage span {
   font-weight: bold;
@@ -602,10 +603,10 @@ div.zimmer-ort {
   width: 100%;
   color: #333;
   border: 0;
-  margin-bottom: 21px;
+  margin-bottom: 13px;
 }
 .kontakt-formular textarea {
-  min-height: 344px;
+  min-height: 266px;
 }
 
 .kontakt-formular input[type="submit"] {

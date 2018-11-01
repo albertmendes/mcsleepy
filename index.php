@@ -1,5 +1,12 @@
 <?php
-	//echo $_SERVER['REQUEST_URI'];
+  if(isset($_COOKIE['betreff'])) {
+    $cValue = "Anfrage für Wohnung " . $_COOKIE['betreff'];
+  }
+  else {
+    $cValue = "";
+  }
+  unset($_COOKIE["betreff"]);
+  setcookie("betreff", null, -1, '/');
 ?>
 <!doctype html>
 <html>
@@ -137,7 +144,7 @@
 
 		</div> <!-- wrap end -->
 
-		<span class="debug"></span>
+		<!--<span class="debug"></span>-->
 		<script src="js/main.js?v=01112018"></script>
 	</body>
 </html>

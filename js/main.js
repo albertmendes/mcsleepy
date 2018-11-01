@@ -14,7 +14,7 @@ $(document).ready(function() {
 
   $(window).on("resize", function() {
     computeHeights();
-    $(".debug").html(window.innerWidth);
+    //$(".debug").html(window.innerWidth);
   });
 
   /* Fade in items */
@@ -221,6 +221,11 @@ $(document).ready(function() {
     else {
       $("#submitForm").prop('disabled', true);
     }
+  });
+
+  $(".anfrage, .anfrage-mobile").on("click", function() {
+    document.cookie = "betreff=" + this.dataset.url;
+    window.location.href = '/Kontakt';
   });
 
 });
