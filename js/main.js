@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   function computeHeights() {
     var itemLeftHeight = $(".overview-item-left img").height();
-    $(".overview-item-right").animate({"height": itemLeftHeight},500);
+    $(".overview-item-right").css({"height": itemLeftHeight});
     var zimmerLeftHeight = $(".zimmer-left").height();
     $(".zimmer-right").css("height", zimmerLeftHeight);
   }
@@ -120,10 +120,7 @@ $(document).ready(function() {
     });
   }
 
-  if(document.cookie.split(';').filter(function(item) {
-    return item.indexOf('animation') >= 0;
-  }).length) {
-    console.log(window.innerWidth);
+  if(document.cookie.indexOf('animation=') != -1) {
     if(window.innerWidth <= 768) {
       showCombs('mobile');
     }
@@ -183,7 +180,22 @@ $(document).ready(function() {
   /* Kontaktformular */
   $(".kontakt-formular form").on("submit", function(e) {
     e.preventDefault();
-    console.log("hey");
+    var name = $("#kName").val();
+    var email = $("#kEmail").val();
+    var subject = $("#kSubject").val();
+    var msg = encodeURIComponent($("#kMsg").val());
+
+    $.get('./sendmail.php?name=' + name + "&email=" + email + "&subject=" + subject + "&msg=" + msg, function(data) {
+      $("#submitForm").val(data);
+      setTimeout(function() {
+        $("#kName").val("");
+        $("#kEmail").val("");
+        $("#kSubject").val("");
+        $("#kMsg").val("");
+        $("#submitForm").val("Senden");
+      },2000);
+    });
+
   });
 
   /* Mobile menu */

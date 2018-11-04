@@ -2,6 +2,6 @@
 $i = 1;
 for(@files) {
 	chomp($_);
-	rename($_, $i.".jpg");
+	rename($_, "rename_" . $i.".jpg");
 	$i++;
 }

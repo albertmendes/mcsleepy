@@ -142,6 +142,10 @@
 				}
 			?>
 
+			<footer>
+
+			</footer>
+
 		</div> <!-- wrap end -->
 
 		<!--<span class="debug"></span>-->

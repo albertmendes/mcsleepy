@@ -167,6 +167,8 @@ div.header .comb {
 
 .logo-kontakt {
   position: absolute;
+  left: 0;
+  top: 0;
   cursor: pointer;
 }
 .logo-kontakt img {
@@ -740,3 +742,11 @@ div.zimmer-ort {
    float: left;
    margin-right: 8px;
  }
+
+
+footer {
+  min-height: 144px;
+  padding: 21px;
+  margin-top: 89px;
+  border-top: 1px solid rgb(253,252,239);;
+}

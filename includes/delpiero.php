@@ -6,7 +6,7 @@
   </div>
 
   <div class="anfrage-mobile-wrapper">
-    <div class="anfrage-mobile" data-url="DelPiero">
+    <div class="anfrage-mobile" data-url="Del Piero">
       Anfrage
     </div>
     <div class="preis-ab-mobile">
