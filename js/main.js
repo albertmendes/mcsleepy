@@ -4,6 +4,30 @@ $(document).ready(function() {
 
   /* Compute heights */
 
+
+  /* That's just bad */
+  function setBoxHeights() {
+    function conPer(num,  per) {
+      var result = (num / 100) * per;
+      console.log(result);
+      return result;
+    }
+
+    var allHeight = $(".zimmer-left").height();
+
+    $(".anfrage").animate({"height": conPer(allHeight, 10)},300);
+    $(".preis-box").animate({"height": conPer(allHeight,23)}, 300);
+    $(".middle-box").animate({"height": conPer(allHeight,27)},300);
+    $(".bottom-box").animate({"height": conPer(allHeight,40) - 16},300);
+
+  }
+
+  setTimeout(function() {
+    setBoxHeights();
+  }, 100);
+
+  /*************************/
+
   function computeHeights() {
     var itemLeftHeight = $(".overview-item-left img").height();
     $(".overview-item-right").css({"height": itemLeftHeight});
@@ -24,6 +48,7 @@ $(document).ready(function() {
       left: 0
     },800, function() {
       if($(".overview-item-left img").height() !== $(".overview-item-right").height()) {
+        // In case it gets stuck
         computeHeights();
       }
     });

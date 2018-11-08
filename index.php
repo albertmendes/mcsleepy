@@ -16,9 +16,9 @@
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css?v=01112018">
-		<link rel="stylesheet" type="text/css" href="albery/css/albery.css">
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		<script src="albery/js/albery.js"></script>
+		<link rel="stylesheet" type="text/css" href="albery/css/albery.min.css">
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="albery/js/albery.min.js"></script>
 		<title>
 			<?php
 				switch($_SERVER['REQUEST_URI']) {
@@ -66,6 +66,7 @@
 	</head>
 
 	<body>
+
 
 		<div class="burgerBun">
 			<div class="burgerMenu">

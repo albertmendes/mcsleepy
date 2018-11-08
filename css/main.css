@@ -314,20 +314,30 @@ div.header .comb {
 
 @media (max-width: 480px) {
   .overview-item-right a.item-details-link {
-    font-size: 14px !important;
+    display: none;
+
     bottom: 16px;
     right: 3px;
   }
   .overview-item-left:after {
     top: -34px;
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
   }
   .item-descr span.name {
-    font-size: 16px !important;
+    font-size: 12px !important;
   }
   .wievielmann {
-    font-size: 16px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .overview-item-left:after {
+    top: -24px;
+    left: 120px;
+    width:21px;
+    height:21px;
   }
 }
 .item-head {
@@ -355,7 +365,7 @@ div.header .comb {
 
 .item-descr span.name {
   font-family: 'Zetafonts-Brush';
-  margin-right: 5px;
+  margin-right: -3px;
   font-size: 21px;
 }
 .item-descr span.name:before {
@@ -433,20 +443,20 @@ div.header .comb {
 .anfrage-mobile {
   float: left;
   width: 60%;
-  height: 55px;
+  height: 34px;
   display: flex;
   align-items: center;
   padding: 8px 8px 8px 34px;
   background: rgb(249,102,28);
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   color: #333;
   cursor: pointer;
 }
 .preis-ab-mobile {
   width: 40%;
   float: right;
-  height: 55px;
+  height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -454,7 +464,7 @@ div.header .comb {
   background: rgb(253,252,239);
   color: rgba(166,159,68,1);
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   border: 3px solid rgb(249,102,28);
 }
 
@@ -516,6 +526,11 @@ div.clear-both {
   font-size: 21px;
   font-weight: bold;
   margin-left: 21px;
+}
+@media (max-width: 480px) {
+  .zimmer-green-stripe span.name-add {
+    font-size: 14px;
+  }
 }
 .zimmer-green-stripe:before {
   position: relative;

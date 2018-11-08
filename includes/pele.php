@@ -98,7 +98,7 @@
       <li><a href="#">r</a></li>
       <li><a href="#">q</a></li>
       <li><a href="#">s</a></li>
-      <li><a href="#">t</a></li>
+      <li><a href="#">t</a></li> 
     </ul>
     <div class="zimmer-ort">
       97896 Freudenberg
