@@ -98,7 +98,7 @@
       <li><a href="#">r</a></li>
       <li><a href="#">q</a></li>
       <li><a href="#">s</a></li>
-      <li><a href="#">t</a></li> 
+      <li><a href="#">t</a></li>
     </ul>
     <div class="zimmer-ort">
       97896 Freudenberg
@@ -181,10 +181,10 @@
 
 <script>
     var containerWidth = $(".zimmer-left").width();
+    var paginationWidth = $(".zimmer-left").width() / 5;
     $(".albery-container").albery({
       speed: 500,
       imgWidth: containerWidth,
-      paginationItemWidth: 138,
+      paginationItemWidth: paginationWidth,
     });
-
 </script>

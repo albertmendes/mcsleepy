@@ -177,10 +177,11 @@
 </div> <!-- container end -->
 
 <script>
-    var containerWidth = $(".zimmer-left").width();
-    $(".albery-container").albery({
-      speed: 500,
-      imgWidth: containerWidth,
-      paginationItemWidth: 138,
-    });
+  var containerWidth = $(".zimmer-left").width();
+  var paginationWidth = $(".zimmer-left").width() / 5;
+  $(".albery-container").albery({
+    speed: 500,
+    imgWidth: containerWidth,
+    paginationItemWidth: paginationWidth,
+  });
 </script>
