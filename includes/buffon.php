@@ -139,7 +139,7 @@
 
     <ul class="ul-beschreibung-full">
       KÜCHE
-      <li>Großer Standkühlschrank / Gefrierfach</li>
+      <li>Großer Standkühlschrank / Gefrierfach</li>
       <li>Herd mit Backofen</li>
       <li>Mikrowelle</li>
       <li>Wasserkocher</li>
@@ -157,9 +157,9 @@
 
     <ul class="ul-beschreibung-full">
       BALKON
-      <li>Südbalkon</li>
+      <li>Südbalkon</li>
       <li>mit Sitzgelegenheit</li>
-      <li>Überdachung</li>
+      <li>Überdachung</li>
     </ul>
   </div>
 

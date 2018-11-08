@@ -142,7 +142,7 @@
 
     <ul class="ul-beschreibung-full">
       KÜCHE
-      <li>Großer Standkühlschrank / Gefrierfach</li>
+      <li>Großer Standkühlschrank / Gefrierfach</li>
       <li>Herd mit Backofen</li>
       <li>Mikrowelle</li>
       <li>Wasserkocher</li>
@@ -164,7 +164,7 @@
 
     <ul class="ul-beschreibung-full">
       Abstellkammer
-      <li>Wäscheständer, zweiter Kühlschrank, Putzutensilien etc.</li>
+      <li>Wäscheständer, zweiter Kühlschrank, Putzutensilien etc.</li>
     </ul>
 
     <ul class="ul-beschreibung-full">

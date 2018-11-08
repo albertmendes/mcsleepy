@@ -147,9 +147,9 @@
 
     <ul class="ul-beschreibung-full">
       KÜCHE
-      <li>Einbauküche mit zwei Kühlschränken / Gefrierschrank</li>
+      <li>Einbauküche mit zwei Kühlschränken / Gefrierschrank</li>
       <li>Herd mit Cerankochfeld und Backofen</li>
-      <li>Spülmaschine</li>
+      <li>Spülmaschine</li>
       <li>Kaffeemaschine</li>
       <li>Mikrowelle</li>
       <li>Wasserkocher</li>
@@ -158,7 +158,7 @@
 
     <ul class="ul-beschreibung-full">
       ESSZIMMER
-      <li>gemütliches, helles Esszimmer mit Küchen- und Terassenanbindung</li>
+      <li>gemütliches, helles Esszimmer mit Küchen- und Terassenanbindung</li>
     </ul>
 
     <ul class="ul-beschreibung-full">

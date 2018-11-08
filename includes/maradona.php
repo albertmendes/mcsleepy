@@ -114,7 +114,7 @@
     <p>
       Zentrale Lage im ruhigen Wohngebiet mit guter Infrastruktur. <br>
       Dachgeschosswohnung, gehobene Ausstattung, 74 m<sup>2</sup>,<br>
-      im Haus mit „Pelé“ <br>
+      im Haus mit „Pel&eacute;“ <br>
       Supermarkt: 200m
     </p>
     <ul class="ul-beschreibung-full">
@@ -138,7 +138,7 @@
 
     <ul class="ul-beschreibung-full">
       OFFENE KÜCHE
-      <li>Einbauküche mit großem Kühlschrank / Gefrierfach</li>
+      <li>Einbauküche mit großem Kühlschrank / Gefrierfach</li>
       <li>Kaffemaschine</li>
       <li>Mikrowelle</li>
       <li>Wasserkocher</li>

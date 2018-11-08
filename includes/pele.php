@@ -121,7 +121,7 @@
       WOHNZIMMER
       <li>35 m<sup>2</sup></li>
       <li>Parkettboden</li>
-      <li>Zwei Schlafsofas (optional von zwei zusätzlichen Personen nutzbar)</li>
+      <li>Zwei Schlafsofas (optional von zwei zusätzlichen Personen nutzbar)</li>
       <li>TV</li>
     </ul>
 

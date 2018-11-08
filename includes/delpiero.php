@@ -148,9 +148,9 @@
 
     <ul class="ul-beschreibung-full">
       KÜCHE
-      <li>Einbauküche mit großem Kühlschrank / Gefrierschrank</li>
+      <li>Einbauküche mit großem Kühlschrank / Gefrierschrank</li>
       <li>Herd mit Cerankochfeld und Backofen</li>
-      <li>Spülmaschine</li>
+      <li>Spülmaschine</li>
       <li>Kaffeemaschine</li>
       <li>Mikrowelle</li>
       <li>Wasserkocher</li>
