@@ -1,24 +1,3 @@
-/* Fonts */
-@font-face {
-  font-family: "Carrois-Gothic";
-  src: url("../fonts/CarroisGothic-Regular_0.woff");
-}
-@font-face {
-  font-family: "Francois-One";
-  src: url("../fonts/FrancoisOne.woff");
-}
-@font-face {
-  font-family: "Minion-Pro";
-  src: url("../fonts/MinionPro.woff");
-}
-@font-face {
-  font-family: "Zetafonts-Brush";
-  src: url("../fonts/Zetafonts - Freehand Brush Easy.woff");
-}
-@font-face {
-  font-family: "Zetafonts-Icon";
-  src: url("../fonts/Zetafonts.Freehand.Icon.UI.woff");
-}
 
 .debug {
   float: left;
@@ -109,7 +88,7 @@ ul {
 
 div.header {
   position: relative;
-  background: url(../img/startbild.jpg) no-repeat;
+  background: url("../img/startbild.jpg") no-repeat;
   background-position: 100% -100px;
   margin-top: 55px;
   background-size: cover;
@@ -758,10 +737,75 @@ div.zimmer-ort {
    margin-right: 8px;
  }
 
+ /* FAQ */
+ .faq-container {
+   margin-top: 144px;
+   line-height: 29px;
+ }
+ .faq-container h1 {
+   font-size: 24px;
+   margin: 34px 0;
+ }
+ .faq-container h2 {
+   font-size: 16px;
+   margin-top: 24px;
+ }
+ .faq-text, .faq-list {
+   padding-left: 55px;
+ }
+
+ @media (max-width: 425px) {
+   .faq-text, .faq-list {
+     padding-left: 13px;
+   }
+ }
+
+ .container-kontakt {
+   min-height: 100vh;
+ }
+
 
 footer {
   min-height: 144px;
   padding: 21px;
   margin-top: 89px;
-  border-top: 1px solid rgb(253,252,239);;
+  background: #262626;
+  border-top: 5px solid rgb(249,102,28);
+}
+.footer-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer-container ul li {
+  display: inline-block;
+  margin-right: 55px;
+}
+.footer-container ul li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 425px) {
+  .footer-container ul li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 21px;
+  }
+}
+
+.footer-container ul li a {
+  text-decoration: none;
+  color: #d2d2d2;
+}
+.footer-container ul li a:hover {
+  color: white;
+}
+.copyright {
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 34px;
+  padding-bottom: 21px;
 }

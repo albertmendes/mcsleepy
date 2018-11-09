@@ -1,0 +1,21 @@
+/* Fonts */
+@font-face {
+  font-family: "Carrois-Gothic";
+  src: url("../fonts/CarroisGothic-Regular_0.woff");
+}
+@font-face {
+  font-family: "Francois-One";
+  src: url("../fonts/FrancoisOne.woff");
+}
+@font-face {
+  font-family: "Minion-Pro";
+  src: url("../fonts/MinionPro.woff");
+}
+@font-face {
+  font-family: "Zetafonts-Brush";
+  src: url("../fonts/Zetafonts - Freehand Brush Easy.woff");
+}
+@font-face {
+  font-family: "Zetafonts-Icon";
+  src: url("../fonts/Zetafonts.Freehand.Icon.UI.woff");
+}

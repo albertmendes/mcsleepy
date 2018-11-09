@@ -14,6 +14,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css?v=01112018">
 		<link rel="stylesheet" type="text/css" href="albery/css/albery.min.css">
@@ -96,6 +97,13 @@
 									<img src="img/logo.svg" alt="">
 								</div>
 								';
+                break;
+                case '/FAQ':
+                echo '
+								<div class="logo-kontakt">
+									<img src="img/logo.svg" alt="">
+								</div>
+								';
 							}
 						?>
 						<ul>
@@ -144,7 +152,24 @@
 			?>
 
 			<footer>
-
+        <div class="container footer-container">
+          <ul>
+            <li><a href="/Impressum">IMPRESSUM</li>
+            <li><a href="/Datenschutz">DATENSCHUTZ</li>
+            <li><a href="/Kontakt">KONTAKT</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            &copy;
+        <script>
+          var d = new Date();
+          document.write(d.getFullYear());
+        </script>
+        mcsleepy.de
+		  </div>
+          </div>
+        </div>
 			</footer>
 
 		</div> <!-- wrap end -->

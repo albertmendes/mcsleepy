@@ -1,4 +1,4 @@
-<div class="container-small">
+<div class="container-small container-kontakt">
   <div class="kontakt-formular">
     <form>
       <input type="text" name="name" id="kName" placeholder="Name" required>
