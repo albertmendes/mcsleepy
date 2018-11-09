@@ -16,7 +16,7 @@
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css?v=01112018">
+		<link rel="stylesheet" type="text/css" href="css/main.css?v=09112018">
 		<link rel="stylesheet" type="text/css" href="albery/css/albery.min.css">
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="albery/js/albery.min.js"></script>
@@ -88,6 +88,7 @@
 
 		<div class="wrap">
 			<div class="navi">
+        	<span class="debug"></span>
 				<div class="container">
 						<?php
 							switch($_SERVER['REQUEST_URI']) {
@@ -174,7 +175,6 @@
 
 		</div> <!-- wrap end -->
 
-		<!--<span class="debug"></span>-->
-		<script src="js/main.js?v=01112018"></script>
+		<script src="js/main.js?v=09112018"></script>
 	</body>
 </html>

@@ -1,0 +1,2 @@
+for file in *jpg; do convert -resize 142 $file ${file%.jpg}_thumb.jpg; done
+convert 1.jpg -resize 263 1_thumb.jpg

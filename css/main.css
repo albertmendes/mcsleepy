@@ -55,7 +55,7 @@ ul {
   width: 100%;
   background: #262626;
   height: 55px;
-  border-bottom: 28px solid #ff670b;
+  border-bottom: 5px solid #ff670b;
   box-sizing: content-box;
   z-index: 2;
   top: 0;
@@ -97,17 +97,27 @@ div.header {
   margin-left: auto;
   margin-right: auto;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   div.header {
     height: 266px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   div.header {
     height: 200px;
+  }
+}
+@media (max-width: 820px) {
+  div.header {
+    height: 180px;
     background: url(../img/startbild.jpg) no-repeat;
     background-size: cover;
     background-position: 100% -50px;
+  }
+}
+@media (max-width: 650px) {
+  div.header {
+    height: 150px;
   }
 }
 @media (max-width: 506px) {
@@ -366,6 +376,7 @@ div.header .comb {
   float: right;
   width: calc(25% - 21px);
   margin-left: 21px;
+  opacity: 0;
 }
 
 .anfrage {
@@ -761,7 +772,7 @@ div.zimmer-ort {
  }
 
  .container-kontakt {
-   min-height: 100vh;
+   min-height: 900px;
  }
 
 

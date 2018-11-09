@@ -18,13 +18,15 @@ $(document).ready(function() {
     $(".anfrage").animate({"height": conPer(allHeight, 10)},300);
     $(".preis-box").animate({"height": conPer(allHeight,23)}, 300);
     $(".middle-box").animate({"height": conPer(allHeight,27)},300);
-    $(".bottom-box").animate({"height": conPer(allHeight,40) - 16},300);
+    $(".bottom-box").animate({"height": conPer(allHeight,40) - 16},300, function() {
+      $(".zimmer-right").animate({"opacity": 1}, 400);
+    });
 
   }
 
   setTimeout(function() {
     setBoxHeights();
-  }, 100);
+  }, 400);
 
   /*************************/
 
@@ -38,7 +40,7 @@ $(document).ready(function() {
 
   $(window).on("resize", function() {
     computeHeights();
-    //$(".debug").html(window.innerWidth);
+    $(".debug").html(window.innerWidth);
   });
 
   /* Fade in items */
@@ -65,7 +67,7 @@ $(document).ready(function() {
         break;
       case 'mobile':
         left = ["100px", "100px", "192px", "7px"];
-        top = ["0px", "105px", "52px", "157px"];
+        top = ["-25px", "80px", "27px", "132px"];
         break;
       default:
         left = ["124px", "124px", "239px", "6px"];
@@ -117,7 +119,7 @@ $(document).ready(function() {
         break;
       case 'mobile':
         left = ["80px", "80px", "172px", "-13px"];
-        top = ["0px", "105px", "52px", "157px"];
+        top = ["-25px", "80px", "27px", "132px"];
         break;
       default:
         left = ["124px", "124px", "239px", "6px"];
