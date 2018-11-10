@@ -13,6 +13,21 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+    <?php
+      switch($_SERVER['REQUEST_URI']) {
+        default:
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren." />
+          <meta property="og:description" content="Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich" />
+        ';
+      }
+    ?>
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="http://mcsleepy.tk" />
+    <meta property="og:image" content="http://mcsleepy.tk/img/fbimage.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
@@ -20,6 +35,7 @@
 		<link rel="stylesheet" type="text/css" href="albery/css/albery.min.css">
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="albery/js/albery.min.js"></script>
+
 		<title>
 			<?php
 				switch($_SERVER['REQUEST_URI']) {

@@ -15,8 +15,8 @@
       <a href="#">t</a>
       <a href="#">s</a>
       <a href="#">q</a>
-      <a href="#">r</a>
-      <a href="#">p</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https%3A%2F%2Fmcsleepy.tk&display=popup&ref=plugin&src=share_button" target="_blank">r</a>
+      <a href="whatsapp://send?text=https://mcsleepy.de">p</a>
     </div>
   </div>
 </div>
