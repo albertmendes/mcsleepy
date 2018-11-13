@@ -7,6 +7,13 @@
   }
   unset($_COOKIE["betreff"]);
   setcookie("betreff", null, -1, '/');
+
+
+  /* Extract everything before ? possibly added by facebook, if you click on a link on a shared page */
+  $uri = $_SERVER['REQUEST_URI'];
+  if(preg_match("/(.+)\?/", $uri, $uri_match)) {
+    $uri = $uri_match[1];
+  }
 ?>
 <!doctype html>
 <html>
@@ -14,20 +21,110 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
     <?php
-      switch($_SERVER['REQUEST_URI']) {
-        default:
+      switch($uri) {
+        case '/Pele':
         echo '
           <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
-          <meta property="og:title" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren." />
-          <meta property="og:description" content="Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich" />
+          <meta property="og:title" content="Monteurwohnung &bdquo;Pel&eacute;&ldquo;" />
+          <meta property="og:description" content="in Freudenberg / Main für 4 - 8 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="http://mcsleepy.tk/Pele" />
+          <meta property="og:image" content="http://mcsleepy.tk/img/gallery/pele/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
         ';
+        break;
+        case '/Maradona':
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="Monteurwohnung &bdquo;Maradona&ldquo;" />
+          <meta property="og:description" content="in Freudenberg / Main für 2 - 5 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="http://mcsleepy.tk/Maradona" />
+          <meta property="og:image" content="http://mcsleepy.tk/img/gallery/maradona/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
+        ';
+        break;
+        case '/Totti':
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="Monteurwohnung &bdquo;Totti&ldquo;" />
+          <meta property="og:description" content="in Bettingen / Main für 4 - 6 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="http://mcsleepy.tk/Totti" />
+          <meta property="og:image" content="http://mcsleepy.tk/img/gallery/totti/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
+        ';
+        break;
+        case '/DelPiero':
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="Monteurwohnung &bdquo;Del Piero&ldquo;" />
+          <meta property="og:description" content="in Bettingen / Main für 2 - 5 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="http://mcsleepy.tk/DelPiero" />
+          <meta property="og:image" content="http://mcsleepy.tk/img/gallery/delpiero/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
+        ';
+        break;
+        case '/Zidane':
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="Monteurwohnung &bdquo;Zidane&ldquo;" />
+          <meta property="og:description" content="in Wertheim / Main für 2 - 5 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="http://mcsleepy.tk/Zidane" />
+          <meta property="og:image" content="http://mcsleepy.tk/img/gallery/zidane/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
+        ';
+        break;
+        case '/Buffon':
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="Monteurwohnung &bdquo;Buffon&ldquo;" />
+          <meta property="og:description" content="in Freudenberg / Main für 2 - 6 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="http://mcsleepy.tk/Buffon" />
+          <meta property="og:image" content="http://mcsleepy.tk/img/gallery/buffon/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
+        ';
+        break;
+        case '/Rooney':
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="Monteurwohnung &bdquo;Rooney&ldquo;" />
+          <meta property="og:description" content="in Wertheim / Main für 2 - 6 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="http://mcsleepy.tk/Rooney" />
+          <meta property="og:image" content="http://mcsleepy.tk/img/gallery/rooney/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
+        ';
+        break;
+        case '/Drogba':
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="Monteurwohnung &bdquo;Drogba&ldquo;" />
+          <meta property="og:description" content="in Wertheim / Main für 2 - 5 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="http://mcsleepy.tk/Drogba" />
+          <meta property="og:image" content="http://mcsleepy.tk/img/gallery/drogba/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
+        ';
+        break;
+
+        default:
+          echo '
+            <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+            <meta property="og:title" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren." />
+            <meta property="og:description" content="Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich" />
+            <meta property="og:url" content="http://mcsleepy.tk" />
+            <meta property="og:image" content="http://mcsleepy.tk/img/fbimage.jpg" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+          ';
       }
     ?>
     <meta property="og:type" content="Website" />
-    <meta property="og:url" content="http://mcsleepy.tk" />
-    <meta property="og:image" content="http://mcsleepy.tk/img/fbimage.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
@@ -38,7 +135,7 @@
 
 		<title>
 			<?php
-				switch($_SERVER['REQUEST_URI']) {
+				switch($uri) {
 					case '/Zimmer':
 						echo 'mcsleepy.de';
 						break;
@@ -107,7 +204,7 @@
         	<span class="debug"></span>
 				<div class="container">
 						<?php
-							switch($_SERVER['REQUEST_URI']) {
+							switch($uri) {
 								case '/Kontakt':
 								echo '
 								<div class="logo-kontakt">
@@ -133,7 +230,7 @@
 			</div> <!-- navi end -->
 
 			<?php
-				switch($_SERVER['REQUEST_URI']) {
+				switch($uri) {
 					case '/Pele':
 						include('includes/pele.php');
 						break;

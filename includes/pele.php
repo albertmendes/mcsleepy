@@ -95,7 +95,7 @@
   <div class="zimmer-gray-stripe">
     <ul class="zimmer-social-icons">
       <li><a href="#">p</a></li>
-      <li><a href="#">r</a></li>
+      <li><a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=http%3A%2F%2Fmcsleepy.tk/Pele&display=popup&ref=plugin&src=share_button" target="_blank">r</a></li>
       <li><a href="#">q</a></li>
       <li><a href="#">s</a></li>
       <li><a href="#">t</a></li>
@@ -106,7 +106,7 @@
   </div>
   <div class="zimmer-green-stripe">
     <div class="zimmer-titel">
-      <span class="name">Pel&eacute;</span>
+      <span class="name">&ldquo;Pel&eacute;&rdquo;</span>
       <span class="name-add">4 - 8 Mann (+2)</span>
     </div>
   </div>
