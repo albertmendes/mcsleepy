@@ -212,6 +212,20 @@
 								</div>
 								';
                 break;
+                case '/Impressum':
+								echo '
+								<div class="logo-kontakt">
+									<img src="img/logo.svg" alt="">
+								</div>
+								';
+                break;
+                case '/Datenschutz':
+								echo '
+								<div class="logo-kontakt">
+									<img src="img/logo.svg" alt="">
+								</div>
+								';
+                break;
                 case '/FAQ':
                 echo '
 								<div class="logo-kontakt">
@@ -263,6 +277,9 @@
 						break;
           case '/Impressum':
             include('includes/impressum.php');
+            break;
+          case '/Datenschutz':
+            include('includes/datenschutz.php');
             break;
 					default: include('includes/overview.php');
 				}
