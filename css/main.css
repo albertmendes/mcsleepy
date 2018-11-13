@@ -771,10 +771,13 @@ div.zimmer-ort {
    }
  }
 
- .container-kontakt {
+ .container-kontakt,  {
    min-height: 900px;
  }
-
+.container-impressum {
+  min-height: 900px;
+  margin-top: 144px;
+}
 
 footer {
   min-height: 144px;

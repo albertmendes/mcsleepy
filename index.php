@@ -261,6 +261,9 @@
 					case '/FAQ':
 						include('includes/faq.php');
 						break;
+          case '/Impressum':
+            include('includes/impressum.php');
+            break;
 					default: include('includes/overview.php');
 				}
 			?>
