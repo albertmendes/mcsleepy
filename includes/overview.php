@@ -28,7 +28,7 @@
       <div class="custom-fb">
         <a class="fblike-icon" href="#">r</a>
         <span>
-          <div class="fb-share-button" data-href="http://mcsleepy.tk" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmcsleepy.tk%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+          <div class="fb-share-button" data-href="https://mcsleepy.de" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmcsleepy.de%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
         </span>
       </div>
       <a href="whatsapp://send?text=https://mcsleepy.de">p</a>
