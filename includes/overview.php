@@ -12,10 +12,25 @@
 <div class="green-stripe">
   <div class="container-small">
     <div class="social-icons-top">
-      <a href="#">t</a>
-      <a href="#">s</a>
-      <a href="#">q</a>
-      <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=http%3A%2F%2Fmcsleepy.tk&display=popup&ref=plugin&src=share_button" target="_blank">r</a>
+      <div class="custom-twitter">
+        <a class="twitter-icon" href="#">t</a>
+        <span>
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://mcsleepy.de" data-hashtags="Monteurzimmer" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </span>
+      </div>
+      <div class="custom-gplus">
+        <a class="gplus-icon" href="#">s</a>
+        <span>
+          <div class="g-plus" data-action="share" data-href="https://mcsleepy.de"></div>
+        </span>
+      </div>
+      <!--<a href="#">q</a>-->
+      <div class="custom-fb">
+        <a class="fblike-icon" href="#">r</a>
+        <span>
+          <div class="fb-share-button" data-href="http://mcsleepy.tk" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmcsleepy.tk%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </span>
+      </div>
       <a href="whatsapp://send?text=https://mcsleepy.de">p</a>
     </div>
   </div>

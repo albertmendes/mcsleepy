@@ -8,7 +8,6 @@
 body {
   background-color: #EEEDDA;
   font-family: "Carrois-Gothic";
-  min-height: 900px;
 }
 
 * {
@@ -84,6 +83,11 @@ ul {
 }
 .navi ul li:last-child {
   margin-right: 0;
+}
+
+/* Show loader, fade in later */
+.content {
+  opacity: 1;
 }
 
 div.header {
@@ -621,6 +625,9 @@ div.zimmer-ort {
   padding: 13px;
   width: 100%;
 }
+.kontakt-formular a {
+  color: #777;
+}
 
 /* Mobile nav */
 .burgerBun {
@@ -771,7 +778,7 @@ div.zimmer-ort {
    }
  }
 
- .container-kontakt,  {
+ .container-kontakt {
    min-height: 900px;
  }
 .container-impressum {
@@ -780,6 +787,8 @@ div.zimmer-ort {
 }
 
 footer {
+  position: relative;
+  bottom: 0;
   min-height: 144px;
   padding: 21px;
   margin-top: 89px;
@@ -822,4 +831,70 @@ footer {
   text-align: center;
   margin-top: 34px;
   padding-bottom: 21px;
+}
+
+/* Social buttons hack */
+
+.custom-fb {
+  float: right;
+  width: 34px !important;
+  overflow: hidden;
+}
+.custom-fb-wohnung {
+  float: right;
+  width: 28px !important;
+  overflow: hidden;
+  margin-top: -4px;
+}
+a.fblike-icon {
+  position: absolute;
+}
+.custom-fb span iframe, .custom-fb-wohnung span iframe {
+  opacity: 0.00001;
+}
+
+.custom-twitter {
+  float: right;
+  width: 34px !important;
+  overflow: hidden;
+}
+.custom-twitter-wohnung {
+  float: right;
+  width: 34px !important;
+  height: 34px !important;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+a.twitter-icon {
+  position: absolute;
+}
+.custom-twitter span iframe, .custom-twitter-wohnung span iframe {
+  position: absolute;
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: right !important;
+  opacity: 0.00001;
+  z-index: 2;
+}
+.custom-gplus-wohnung {
+  float: right;
+  width: 20px !important;
+  overflow: hidden;
+}
+.custom-gplus-wohnung div {
+  opacity: 0.00001 !important;
+}
+
+.custom-gplus {
+  float: right;
+  width: 34px !important;
+  overflow: hidden;
+}
+a.gplus-icon {
+  position: absolute;
+}
+.custom-gplus div {
+  opacity: 0.00001;
 }

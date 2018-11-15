@@ -94,11 +94,32 @@
 
   <div class="zimmer-gray-stripe">
     <ul class="zimmer-social-icons">
-      <li><a href="#">p</a></li>
-      <li><a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=http%3A%2F%2Fmcsleepy.tk/DelPiero&display=popup&ref=plugin&src=share_button" target="_blank">r</a></li>
-      <li><a href="#">q</a></li>
-      <li><a href="#">s</a></li>
-      <li><a href="#">t</a></li>
+      <li><a href="whatsapp://send?text=https://mcsleepy.de/DelPiero">p</a></li>
+      <li>
+        <div class="custom-fb-wohnung">
+          <a class="fblike-icon" href="#">r</a>
+          <span>
+            <div class="fb-share-button" data-href="https://mcsleepy.de/DelPiero" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmcsleepy.de%2FDelPiero&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+          </span>
+        </div>
+      </li>
+
+      <li>
+        <div class="custom-gplus-wohnung">
+          <a class="gplus-icon" href="#">s</a>
+          <span>
+            <div class="g-plus" data-action="share" data-href="https://mcsleepy.de/DelPiero"></div>
+          </span>
+        </div>
+      </li>
+      <li>
+        <div class="custom-twitter-wohnung">
+          <a class="twitter-icon" href="#">t</a>
+          <span>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://mcsleepy.de/DelPiero" data-hashtags="Monteurzimmer" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </span>
+        </div>
+      </li>
     </ul>
     <div class="zimmer-ort">
       97877 Bettingen

@@ -7,7 +7,7 @@
       <textarea name="msg" id="kMsg" placeholder="Ihre Nachricht an uns" required></textarea>
       <div class="checkbox">
         <input type="checkbox" id="checkSubmit">
-        <label for="checkSubmit"> Ich stimme den Datenschutzbestimmungen von mcsleepy.de zu</label>
+        <label for="checkSubmit"> Ich stimme den <a href="./Datenschutz">Datenschutzbestimmungen</a> von mcsleepy.de zu</label>
         <br>
         <br>
       </div>

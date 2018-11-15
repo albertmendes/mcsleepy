@@ -177,10 +177,19 @@
 				}
 			?>
 	</title>
+  <script src="https://apis.google.com/js/platform.js" async defer>{lang: 'de'}</script>
 	</head>
 
 	<body>
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=182084536032749&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 		<div class="burgerBun">
 			<div class="burgerMenu">
@@ -201,7 +210,7 @@
 
 		<div class="wrap">
 			<div class="navi">
-        	<span class="debug"></span>
+        <span class="debug"></span>
 				<div class="container">
 						<?php
 							switch($uri) {
@@ -242,6 +251,8 @@
 						</ul>
 				</div> <!-- container end -->
 			</div> <!-- navi end -->
+
+      <div class="content">
 
 			<?php
 				switch($uri) {
@@ -285,11 +296,13 @@
 				}
 			?>
 
+    </div> <!-- Content end -->
+
 			<footer>
         <div class="container footer-container">
           <ul>
-            <li><a href="/Impressum">IMPRESSUM</li>
-            <li><a href="/Datenschutz">DATENSCHUTZ</li>
+            <li><a href="/Impressum">IMPRESSUM</a></li>
+            <li><a href="/Datenschutz">DATENSCHUTZ</a></li>
             <li><a href="/Kontakt">KONTAKT</a></li>
           </ul>
         </div>
@@ -301,8 +314,7 @@
           document.write(d.getFullYear());
         </script>
         mcsleepy.de
-		  </div>
-          </div>
+		      </div>
         </div>
 			</footer>
 
