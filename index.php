@@ -123,6 +123,7 @@
           ';
       }
     ?>
+    <meta name="keywords" content="Monteurwohnung, Monteurzimmer, Ferienwohnung, Ferienzimmer, Wertheim, Freudenberg, Bettingen" />
     <meta property="og:type" content="Website" />
     <meta property="og:app_id" content="1715649748540481" />
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
