@@ -5,8 +5,8 @@
   else {
     $cValue = "";
   }
-  unset($_COOKIE["betreff"]);
-  setcookie("betreff", null, -1, '/');
+//  unset($_COOKIE["betreff"]);
+//  setcookie("betreff", null, -1, '/');
 
 
   /* Extract everything before ? possibly added by facebook, if you click on a link on a shared page */
@@ -16,10 +16,11 @@
   }
 ?>
 <!doctype html>
-<html>
+<html lang="de">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <?php
       switch($uri) {
         case '/Pele':
@@ -129,7 +130,7 @@
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css?v=09112018">
+		<link rel="stylesheet" type="text/css" href="css/main.css?v=16112018">
 		<link rel="stylesheet" type="text/css" href="albery/css/albery.min.css">
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="albery/js/albery.min.js"></script>
@@ -211,7 +212,7 @@
 
 		<div class="wrap">
 			<div class="navi">
-        <span class="debug"></span>
+        <!--<span class="debug"></span>-->
 				<div class="container">
 						<?php
 							switch($uri) {
@@ -321,6 +322,6 @@
 
 		</div> <!-- wrap end -->
 
-		<script src="js/main.js?v=09112018"></script>
+		<script src="js/main.js?v=15112018"></script>
 	</body>
 </html>

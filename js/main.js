@@ -40,7 +40,7 @@ $(document).ready(function() {
 
   $(window).on("resize", function() {
     computeHeights();
-    $(".debug").html(window.innerWidth);
+    //$(".debug").html(window.innerWidth);
   });
 
   /* Fade in items */
@@ -266,5 +266,59 @@ $(document).ready(function() {
     document.cookie = "betreff=" + this.dataset.url;
     window.location.href = '/Kontakt';
   });
+
+  /* Karte zeigen */
+
+  $("#karteZeigen").on("click", function(e) {
+    e.preventDefault();
+    if($("#karteZeigen").html() === "Karte zeigen") {
+      $(".container-kontakt").css("zIndex", "-9999");
+      $(".karte-overlay").css("display", "none");
+      $("#karteZeigen").html("Karte verbergen");
+    }
+    else {
+      $(".container-kontakt").css("zIndex", "1");
+      $(".karte-overlay").css("display", "block");
+      $("#karteZeigen").html("Karte zeigen");
+    }
+
+  })
+
+  /* Karte an Wohnung anpassen */
+
+  function getCookie(name) {
+    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    if (match) return match[2];
+  }
+
+  var wohnungName = getCookie('betreff');
+  switch(wohnungName) {
+    case 'Pele':
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4286.070834970013!2d9.322626079247446!3d49.75438135841993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2ace8f28e8637%3A0xab4daf1121f50d02!2sFichtenweg+1%2C+97896+Freudenberg!5e1!3m2!1sen!2sde!4v1542363133673')
+    break;
+    case 'Maradona':
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4286.070834970013!2d9.322626079247446!3d49.75438135841993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2ace8f28e8637%3A0xab4daf1121f50d02!2sFichtenweg+1%2C+97896+Freudenberg!5e1!3m2!1sen!2sde!4v1542363133673')
+    break;
+    case 'Totti':
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3420.863021183516!2d9.560274648216184!3d49.773629257477545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2a526c68ec74b%3A0xa77ae65e3a50c119!2sAm+M%C3%BChlacker+4%2C+97877+Wertheim!5e1!3m2!1sen!2sde!4v1542363288036')
+    break;
+    case 'Del Piero':
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3420.863021183516!2d9.560274648216184!3d49.773629257477545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2a526c68ec74b%3A0xa77ae65e3a50c119!2sAm+M%C3%BChlacker+4%2C+97877+Wertheim!5e1!3m2!1sen!2sde!4v1542363288036')
+    break;
+    case 'Zidane':
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.402569612392!2d9.497605951266285!3d49.757113444858106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2af838f110347%3A0x32fb0ed5c9d2dd3d!2sBerliner+Ring+159%2C+97877+Wertheim!5e1!3m2!1sen!2sde!4v1542363426572')
+    break;
+    case 'Buffon':
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4532.184474959318!2d9.4976945850261!3d49.755744556734356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2af81a86e4c71%3A0x5f138a720c02a88c!2sAm+Reinhardshof+53%2C+97877+Wertheim!5e1!3m2!1sen!2sde!4v1542363523156')
+    break;
+    case 'Rooney':
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.370206669948!2d9.497075951266279!3d49.757673444818224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2af847f0d4001%3A0xaf050a61a61e8a1!2sBerliner+Ring+165%2C+97877+Wertheim!5e1!3m2!1sen!2sde!4v1542363595087')
+    break;
+    case 'Drogba':
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.370206669948!2d9.497075951266279!3d49.757673444818224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2af847f0d4001%3A0xaf050a61a61e8a1!2sBerliner+Ring+165%2C+97877+Wertheim!5e1!3m2!1sen!2sde!4v1542363595087')
+    break;
+    default:
+      $(".karte-iframe iframe").prop('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79970.97652341181!2d9.439070949138149!3d49.74331983190482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2a57944d74753%3A0xcb6679b81c015cf!2s97877+Wertheim+am+Main!5e0!3m2!1sen!2sde!4v1542358462244')
+  }
 
 });
