@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 .debug {
   float: left;
@@ -975,4 +976,31 @@ a.gplus-icon {
   .show-map a {
     padding: 8px !important;
   }
+}
+
+.datenschutz-nag {
+  position: fixed;
+  bottom: -200px;
+  z-index: 999999;
+  background: #4b4b4b;
+  color: white;
+  padding: 21px;
+  text-align: center;
+  transition: all 1.5s;
+}
+.datenschutz-nag.toggle {
+  bottom: 0px;
+}
+.datenschutz-nag a {
+  color: #eee;
+}
+.datenschutz-nag button {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13px;
+  display: block;
+  background: #ffbf00;
+  color: white;
+  padding: 13px;
 }

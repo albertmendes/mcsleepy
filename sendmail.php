@@ -14,7 +14,7 @@ $message = strip_tags(htmlspecialchars(urldecode($_GET['msg'])));
 
 $ip = $_SERVER['REMOTE_ADDR'];
 $ua = $_SERVER['HTTP_USER_AGENT'];
-$to = 'spam@leyght.tk';
+$to = 'info@mcsleepy.de';
 $email_subject = "Kontaktformular mcsleepy.de:  $name";
 $email_body = "Name: $name\n\nEmail: $email_address\n\nNachricht:\n$message\n\n\nUser-Agent: $ua\nIP: $ip\n";
 $headers = "MIME-Version: 1.0\r\n";

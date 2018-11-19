@@ -284,6 +284,12 @@ $(document).ready(function() {
 
   })
 
+  /* Datenschutz Nag */
+  $(".datenschutz-nag button").on("click", function() {
+    $(this).parent().css("display", "none");
+    document.cookie = 'ds=ok;expires=' + d.toUTCString() + '; path=/';
+  });
+
   /* Karte an Wohnung anpassen */
 
   function getCookie(name) {

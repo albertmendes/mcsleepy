@@ -130,7 +130,7 @@
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css?v=16112018">
+		<link rel="stylesheet" type="text/css" href="css/main.min.css?v=19112018">
 		<link rel="stylesheet" type="text/css" href="albery/css/albery.min.css">
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="albery/js/albery.min.js"></script>
@@ -322,6 +322,37 @@
 
 		</div> <!-- wrap end -->
 
-		<script src="js/main.js?v=15112018"></script>
+    <div class="datenschutz-nag">
+      Wir verwenden Cookies auf dieser Webseite, um die Webseite für Sie nutzerfreundlich zu halten.
+      Sie geben die Einwilligung zu unseren Cookies, wenn Sie unsere Webseite weiterhin nutzen.
+      <a href="/Datenschutz">Unsere Datenschutzrichtlinien.</a>
+      <button id="okDs">OK</button>
+    </div>
+
+		<script src="js/main.min.js?v=19112018"></script>
+
+    <?php
+      if(!isset($_COOKIE['ds'])) {
+        echo '
+          <script>
+          $(document).ready(function() {
+            setTimeout(function() {
+              $(".datenschutz-nag").addClass("toggle");
+            },2000)
+          });
+          </script>
+        ';
+      }
+      else {
+        echo '
+          <script>
+            $(document).ready(function() {
+                $(".datenschutz-nag").removeClass("toggle");
+                $(".datenschutz-nag").css("display", "none");
+            });
+          </script>
+        ';
+      }
+    ?>
 	</body>
 </html>
