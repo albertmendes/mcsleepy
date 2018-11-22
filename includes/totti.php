@@ -97,7 +97,7 @@
       <li>
         <div class="custom-fb-wohnung">
           <a class="fblike-icon" href="#">r</a>
-          <span>
+          <span style="opacity: 0.001 !important">
             <div class="fb-share-button" data-href="https://mcsleepy.de/Totti" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmcsleepy.de%2FTotti&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
           </span>
         </div>
@@ -114,7 +114,7 @@
       <li>
         <div class="custom-twitter-wohnung">
           <a class="twitter-icon" href="#">t</a>
-          <span>
+          <span style="opacity: 0.001 !important">
             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://mcsleepy.de/Totti" data-hashtags="Monteurzimmer" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </span>
         </div>
