@@ -91,6 +91,10 @@ ul {
   opacity: 1;
 }
 
+div.header-bg {
+  background: rgb(38,45,61);
+}
+
 div.header {
   position: relative;
   background: url("../img/startbild.jpg") no-repeat;
@@ -979,6 +983,7 @@ a.gplus-icon {
 }
 
 .datenschutz-nag {
+  width: 100%;
   position: fixed;
   bottom: -200px;
   z-index: 999999;
@@ -1003,4 +1008,5 @@ a.gplus-icon {
   background: #ffbf00;
   color: white;
   padding: 13px;
+  border: 0;
 }

@@ -130,7 +130,7 @@
 		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.min.css?v=19112018">
+		<link rel="stylesheet" type="text/css" href="css/main.min.css?v=23112018">
 		<link rel="stylesheet" type="text/css" href="albery/css/albery.min.css">
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="albery/js/albery.min.js"></script>
@@ -329,7 +329,7 @@
       <button id="okDs">OK</button>
     </div>
 
-		<script src="js/main.min.js?v=19112018"></script>
+		<script src="js/main.min.js?v=23112018"></script>
 
     <?php
       if(!isset($_COOKIE['ds'])) {

@@ -1,3 +1,4 @@
+<div class="header-bg">
 <div class="header">
   <div class="container">
     <div class="comb-wrapper">
@@ -8,6 +9,8 @@
     </div>
   </div>
 </div>
+</div>
+
 
 <div class="green-stripe">
   <div class="container-small">
