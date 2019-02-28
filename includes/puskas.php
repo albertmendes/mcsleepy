@@ -133,7 +133,7 @@
     <h2>Beschreibung:</h2>
     <p>
       Sehr ruhige Lage im Ortskern trotz direkter Anbindung an die A3
-      Untergeschoss, 39 m<sup>2</sup> ?, im Haus mit „Totti“ und „Del Piero“
+      Untergeschoss, 39 m<sup>2</sup>, im Haus mit „Totti“ und „Del Piero“
       Supermarkt: 8km
     </p>
     <p>
