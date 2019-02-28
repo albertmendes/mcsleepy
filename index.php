@@ -112,6 +112,18 @@
         ';
         break;
 
+        case '/Puskas':
+        echo '
+          <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
+          <meta property="og:title" content="Monteurwohnung &bdquo;Puskas&ldquo;" />
+          <meta property="og:description" content="in Wertheim / Main für 2 - 4 Mann ab 15 € die Nacht" />
+          <meta property="og:url" content="https://mcsleepy.de/Puskas" />
+          <meta property="og:image" content="https://mcsleepy.de/img/gallery/Puskas/fb.jpg" />
+          <meta property="og:image:width" content="900" />
+          <meta property="og:image:height" content="470" />
+        ';
+        break;
+
         default:
           echo '
             <meta name="description" content="mcsleepy.de - Spezialisiert auf die Bedürfnisse von Monteuren. Unkompliziert - hoher Schlafkomfort in Einzelbetten - TV und WLAN - Männerfreundlich">
@@ -173,6 +185,9 @@
 						break;
 					case '/Drogba':
 						echo 'Monteurzimmer / Ferienwohnung Drogba in Wertheim - mcsleepy.de';
+						break;
+                    case '/Puskas':
+						echo 'Monteurzimmer / Ferienwohnung Puskas in Wertheim - mcsleepy.de';
 						break;
 					default:
 						echo 'mcsleepy.de';
@@ -281,6 +296,9 @@
 						break;
 					case '/Drogba':
 						include('includes/drogba.php');
+						break;
+                    case '/Puskas':
+						include('includes/puskas.php');
 						break;
 					case '/Kontakt':
 						include('includes/kontakt.php');

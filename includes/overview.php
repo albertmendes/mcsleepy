@@ -234,4 +234,25 @@
   </div>
 </div>
 
+<!-- Wohnung Puskas -->
+<div class="container-small fade-in">
+  <div class="overview-item" data-link="/Puskas">
+    <div class="overview-item-left">
+      <div class="overview-image">
+        <img src="img/gallery/puskas/1_thumb.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="overview-item-right">
+      <div class="item-head">
+        97877 Bettingen
+      </div>
+      <div class="item-descr">
+        <span class="name">Puskás</span> <span class="wievielmann"><strong>2 - 4 Mann </strong></span>
+      </div>
+      <a href="/Puskas" class="item-details-link">Details</a>
+    </div>
+  </div>
+</div>
+
 <div class="clear-both"></div>
