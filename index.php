@@ -347,7 +347,7 @@
       <button id="okDs">OK</button>
     </div>
 
-		<script src="js/main.min.js?v=23112018"></script>
+		<script src="js/main.min.js?v=28022019"></script>
 
     <?php
       if(!isset($_COOKIE['ds'])) {
