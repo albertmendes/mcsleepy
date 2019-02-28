@@ -177,7 +177,7 @@
 
     <ul class="ul-beschreibung-full">
       TERRASSE
-      <li>überdachte, gefließte Terasse mit Treppenaufgang
+      <li>überdachte, geflieste Terasse mit Treppenaufgang
         in den Garten und Zugang zum Hof.
       </li>
 
